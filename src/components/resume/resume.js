@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGraduationCap, faBriefcase } from '@fortawesome/free-solid-svg-icons'
+import { faGraduationCap, faBriefcase, faHandsHelping } from '@fortawesome/free-solid-svg-icons'
 
 export default class Resume extends Component {
     render() {
@@ -69,7 +69,7 @@ export default class Resume extends Component {
                             contentStyle={{ background: 'rgb(FF, FF, FF)', color: '#fff' }}
                             contentArrowStyle={{ borderRight: '7px solid  #F06000' }}
                             date="2019 - Present"
-                            iconStyle={{ background: '#2B2B2B', color: '#ffffff' }}
+                            iconStyle={{ background: '#11ABB0', color: '#ffffff' }}
                             icon={<FontAwesomeIcon icon={faBriefcase} size="lg" pull="left" />}
                         >
                             <h3 className="vertical-timeline-element-title">Hewlett Packard Enterprise</h3>
@@ -84,7 +84,7 @@ export default class Resume extends Component {
                             contentStyle={{ background: 'rgb(FF, FF, FF)', color: '#fff' }}
                             contentArrowStyle={{ borderRight: '7px solid  #F06000' }}
                             date="Jan - Jul 2019"
-                            iconStyle={{ background: '#2B2B2B', color: '#ffffff' }}
+                            iconStyle={{ background: '#11ABB0', color: '#ffffff' }}
                             icon={<FontAwesomeIcon icon={faBriefcase} size="lg" pull="left" />}
                         >
                             <h3 className="vertical-timeline-element-title">Hewlett Packard Enterprise</h3>
@@ -98,7 +98,7 @@ export default class Resume extends Component {
                             contentStyle={{ background: 'rgb(FF, FF, FF)', color: '#fff' }}
                             contentArrowStyle={{ borderRight: '7px solid  #F06000' }}
                             date="May - Jul 2018"
-                            iconStyle={{ background: '#2B2B2B', color: '#ffffff' }}
+                            iconStyle={{ background: '#11ABB0', color: '#ffffff' }}
                             icon={<FontAwesomeIcon icon={faBriefcase} size="lg" pull="left" />}
                         >
                             <h3 className="vertical-timeline-element-title">Toshiba Software India Pvt. Ltd.</h3>
@@ -110,7 +110,7 @@ export default class Resume extends Component {
                             contentStyle={{ background: 'rgb(FF, FF, FF)', color: '#fff' }}
                             contentArrowStyle={{ borderRight: '7px solid  #F06000' }}
                             date="Jun - Jul 2017"
-                            iconStyle={{ background: '#2B2B2B', color: '#ffffff' }}
+                            iconStyle={{ background: '#11ABB0', color: '#ffffff' }}
                             icon={<FontAwesomeIcon icon={faBriefcase} size="lg" pull="left" />}
                         >
                             <h3 className="vertical-timeline-element-title">Tessolve Semiconductors India Pvt. Ltd.</h3>
@@ -118,6 +118,63 @@ export default class Resume extends Component {
                             <p className="info-1">Optimization of Technology Migration Scripts written in Perl and Python.</p>
                         </VerticalTimelineElement>
 
+                    </VerticalTimeline>
+                    <div>
+                        <h1><span>Volunteer Experience</span></h1>
+                    </div>
+                    <VerticalTimeline>
+                        <VerticalTimelineElement
+                            className="vertical-timeline-element--work"
+                            contentStyle={{ background: 'rgb(FF, FF, FF)', color: '#fff' }}
+                            contentArrowStyle={{ borderRight: '7px solid  #F06000' }}
+                            date="Jul 19-Present"
+                            iconStyle={{ background: '#F06000', color: '#ffffff' }}
+                            icon={<FontAwesomeIcon icon={faHandsHelping} size="lg" pull="left" />}
+                        >
+                            <img src="images/resume/GiftAMem.jpg"></img>
+                            <h3 className="vertical-timeline-element-title">U&I</h3>
+                            <p className="info">Child Enrichment Program Volunteer </p>
+                            <p className="info-1">With the Child Enrichment Program, we concentrate on the holistic development of the children. We wish to inculcate a love for reading in the children, along with music, art, dance and life skills like public speaking, teamwork and respecting their community. Apart from these activities, my role in this program is teaching children how to hula hoop so that they can remain fit and have fun while doing it.</p>
+                        </VerticalTimelineElement>
+                        <VerticalTimelineElement
+                            className="vertical-timeline-element--work"
+                            contentStyle={{ background: 'rgb(FF, FF, FF)', color: '#fff' }}
+                            contentArrowStyle={{ borderRight: '7px solid  #F06000' }}
+                            date="Jan 19-Present"
+                            iconStyle={{ background: '#F06000', color: '#ffffff' }}
+                            icon={<FontAwesomeIcon icon={faHandsHelping} size="lg" pull="left" />}
+                        >
+                            <img src="images/resume/HPE_SI.jpg"></img>
+                            <h3 className="vertical-timeline-element-title">U&I</h3>
+                            <p className="info">HPE Social Impact Volunteer</p>
+                            <p className="info-1">Through this program, I volunteered at a Notebook Distribution Drive for 20 schools and painted school premises so that the children have a conducive learning environment and basic school supplies.</p>
+                        </VerticalTimelineElement>
+
+                        <VerticalTimelineElement
+                            className="vertical-timeline-element--work"
+                            contentStyle={{ background: 'rgb(FF, FF, FF)', color: '#fff' }}
+                            contentArrowStyle={{ borderRight: '7px solid  #F06000' }}
+                            date="May - Jul 2016"
+                            iconStyle={{ background: '#F06000', color: '#ffffff' }}
+                            icon={<FontAwesomeIcon icon={faHandsHelping} size="lg" pull="left" />}
+                        >
+                            <img src="images/resume/Samarthanam.jpg"></img>
+                            <h3 className="vertical-timeline-element-title">Samarthanam Trust for the Disabled</h3>
+                            <p className="info">Teaching Volunteer</p>
+                            <p className="info-1">Taught Fifth, Sixth and Seventh Standard students Mathematics and English, in Kannada. In the above picture, my students wanted me to be in the frame as well, so they came up with this creative solution!</p>
+                        </VerticalTimelineElement>
+                        <VerticalTimelineElement
+                            className="vertical-timeline-element--work"
+                            contentStyle={{ background: 'rgb(FF, FF, FF)', color: '#fff' }}
+                            contentArrowStyle={{ borderRight: '7px solid  #F06000' }}
+                            date="May 2016 - Present"
+                            iconStyle={{ background: '#F06000', color: '#ffffff' }}
+                            icon={<FontAwesomeIcon icon={faHandsHelping} size="lg" pull="left" />}
+                        >
+                            <img src="images/resume/YDP.jpg"></img>
+                            <h3 className="vertical-timeline-element-title">Youth Development Program, Bangalore</h3>
+                            <p className="info-1">Engaged with Young students in Government schools and Orphanages, to help them develop their skills. I also conducted two Hula Hoop Workshops whose proceeds went to schools and orphanages.</p>
+                        </VerticalTimelineElement>
                     </VerticalTimeline>
 
                     {/* End Work */}
@@ -144,7 +201,7 @@ export default class Resume extends Component {
                                     <li><span className="bar-expand jquery" /><em>CSS</em></li>
                                 </ul>
                             </div>{/* end skill-bars */}
-                        {/* </div> {/* main-col end */}
+                    {/* </div> {/* main-col end */}
                     {/* </div> End skills */}
                 </section>
             </React.Fragment>
