@@ -2,7 +2,7 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://itsadtbot.github.io/my-website",
+  "homepage": "https://aditibhat.com",
   "main": "index.js",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.26",
