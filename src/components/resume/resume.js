@@ -47,7 +47,7 @@ export default class Resume extends Component {
                             className="vertical-timeline-element--work"
                             contentStyle={{ background: 'rgb(FF, FF, FF)', color: '#fff' }}
                             contentArrowStyle={{ borderRight: '7px solid  #F06000' }}
-                            date="2014 - 2015"
+                            date="2012 - 2013"
                             iconStyle={{ background: '#2B2B2B', color: '#ffffff' }}
                             icon={<FontAwesomeIcon icon={faGraduationCap} size="lg" pull="left" />}
                         >
@@ -145,8 +145,8 @@ export default class Resume extends Component {
                             icon={<FontAwesomeIcon icon={faHandsHelping} size="lg" pull="left" />}
                         >
                             <img src="images/resume/HPE_SI.jpg"></img>
-                            <h3 className="vertical-timeline-element-title">U&I</h3>
-                            <p className="info">HPE Social Impact Volunteer</p>
+                            <h3 className="vertical-timeline-element-title">HPE Social Impact Volunteer</h3>
+                            {/* <p className="info">HPE Social Impact Volunteer</p> */}
                             <p className="info-1">Through this program, I volunteered at a Notebook Distribution Drive for 20 schools and painted school premises so that the children have a conducive learning environment and basic school supplies.</p>
                         </VerticalTimelineElement>
 
@@ -203,6 +203,7 @@ export default class Resume extends Component {
                             </div>{/* end skill-bars */}
                     {/* </div> {/* main-col end */}
                     {/* </div> End skills */}
+                    <hr/>
                 </section>
             </React.Fragment>
         );
