@@ -345,7 +345,9 @@ ul#nav li.current a {
 #resume h4 {
     font: 14px/20px 'opensans-regular', sans-serif;
 }
-
+ #resume img {
+     width: 25rem;
+ }
 
 /* #resume .vertical-timeline-element--work {
    font: 72px/60px 'opensans-bold', sans-serif;
