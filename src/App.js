@@ -7,16 +7,22 @@ import ContactUs from './components/contact/contact';
 import Footer from './components/footer/footer';
 import Portfolio from './components/portfolio/portfolio';
 import resumeData from './resumeData';
+import LazyLoad from 'react-lazyload';
+import { LazyLoadComponent } from 'react-lazy-load-image-component';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header resumeData={resumeData} />
+        
+          <Header resumeData={resumeData} />
+        
+        
         <About />
+        
         <Resume />
-        <Portfolio/>
+        <Portfolio />
         {/* <ContactUs /> */}
         <Footer />
       </div>

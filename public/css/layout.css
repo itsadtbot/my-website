@@ -322,7 +322,7 @@ ul#nav li.current a {
     color: #313131;
 }
 
-#resume h1 span{
+#resume h1 span {
     font: 25px/30px 'opensans-bold', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -346,6 +346,9 @@ ul#nav li.current a {
     font: 14px/20px 'opensans-regular', sans-serif;
 }
 
+#resume img {
+    width: 25rem;
+}
 
 /* #resume .vertical-timeline-element--work {
    font: 72px/60px 'opensans-bold', sans-serif;
@@ -483,6 +486,7 @@ ul#nav li.current a {
     0% {
         width: 0px;
     }
+
     100% {
         width: 60%;
     }
@@ -492,6 +496,7 @@ ul#nav li.current a {
     0% {
         width: 0px;
     }
+
     100% {
         width: 55%;
     }
@@ -501,6 +506,7 @@ ul#nav li.current a {
     0% {
         width: 0px;
     }
+
     100% {
         width: 50%;
     }
@@ -510,6 +516,7 @@ ul#nav li.current a {
     0% {
         width: 0px;
     }
+
     100% {
         width: 90%;
     }
@@ -519,6 +526,7 @@ ul#nav li.current a {
     0% {
         width: 0px;
     }
+
     100% {
         width: 80%;
     }
@@ -528,6 +536,7 @@ ul#nav li.current a {
     0% {
         width: 0px;
     }
+
     100% {
         width: 50%;
     }
@@ -537,6 +546,7 @@ ul#nav li.current a {
     0% {
         width: 0px;
     }
+
     100% {
         width: 60%;
     }
@@ -546,6 +556,7 @@ ul#nav li.current a {
     0% {
         width: 0px;
     }
+
     100% {
         width: 55%;
     }
@@ -555,6 +566,7 @@ ul#nav li.current a {
     0% {
         width: 0px;
     }
+
     100% {
         width: 50%;
     }
@@ -564,6 +576,7 @@ ul#nav li.current a {
     0% {
         width: 0px;
     }
+
     100% {
         width: 90%;
     }
@@ -573,6 +586,7 @@ ul#nav li.current a {
     0% {
         width: 0px;
     }
+
     100% {
         width: 80%;
     }
@@ -582,6 +596,7 @@ ul#nav li.current a {
     0% {
         width: 0px;
     }
+
     100% {
         width: 50%;
     }
@@ -600,14 +615,22 @@ ul#nav li.current a {
     padding-bottom: 60px;
 }
 
-#portfolio h1 {
-    font: 15px/24px 'opensans-semibold', sans-serif;
+#portfolio h1 span {
+    font: 25px/30px 'opensans-bold', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
-    text-align: center;
-    margin-bottom: 48px;
-    color: #95A3A3;
 }
+
+#portfolio h2 {
+    font: 20px/24px 'opensans-regular', sans-serif;
+    letter-spacing: 1px;
+}
+
+#portfolio h1 span {
+    border-bottom: 3px solid #11ABB0;
+    padding-bottom: 6px;
+}
+
 
 
 /* Portfolio Content */

@@ -153,18 +153,7 @@ export default class About extends Component {
                                 <a className="popup-modal-dismiss">Close</a>
                             </div>
                         </div>{/* modal-01 End */}
-                        <div id="modal-02" className="popup-modal mfp-hide">
-                            <img className="scale-with-grid" src="images/portfolio/modals/m-hooping.jpg" alt="" />
-                            <div className="description-box">
-                                <h4>Hula Hooping</h4>
-                                <p>To be updated</p>
-                                <span className="categories"><i className="fa fa-tag" />Branding, Web Development</span>
-                            </div>
-                            <div className="link-box">
-                                <a href="http://www.behance.net">Details</a>
-                                <a className="popup-modal-dismiss">Close</a>
-                            </div>
-                        </div>{/* modal-02 End */}
+                        {/* modal-02 End */}
                         <div id="modal-03" className="popup-modal mfp-hide">
                             <img className="scale-with-grid" src="images/portfolio/modals/m-psychology.jpg" alt="" />
                             <div className="description-box">

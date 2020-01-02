@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGraduationCap, faBriefcase, faHandsHelping } from '@fortawesome/free-solid-svg-icons'
-
+import { faGraduationCap, faBriefcase, faHandsHelping, faBook } from '@fortawesome/free-solid-svg-icons'
+import Pdf from '../../projects/IEEEWIECONPaperID154.pdf'
 export default class Resume extends Component {
     render() {
         return (
@@ -176,7 +176,24 @@ export default class Resume extends Component {
                             <p className="info-1">Engaged with Young students in Government schools and Orphanages, to help them develop their skills. I also conducted two Hula Hoop Workshops whose proceeds went to schools and orphanages.</p>
                         </VerticalTimelineElement>
                     </VerticalTimeline>
-
+                    <div>
+                        <h1><span>Research</span></h1>
+                    </div>
+                    <VerticalTimeline>
+                        <VerticalTimelineElement
+                            className="vertical-timeline-element--work"
+                            contentStyle={{ background: 'rgb(FF, FF, FF)', color: '#fff' }}
+                            contentArrowStyle={{ borderRight: '7px solid  #F06000' }}
+                            date="Nov 2019"
+                            iconStyle={{ background: '#000000', color: '#ffffff' }}
+                            icon={<FontAwesomeIcon icon={faBook} size="lg" pull="left" />}
+                        >
+                            <h3 className="vertical-timeline-element-title">Mobile Phone Usability and its Influence on Brand Loyalty and Re-Purchase Intention: An Empirical Study</h3>
+                            <a href = {Pdf} target = "_blank">View Camera Ready Submission</a>
+                            <p className="info">2019 5th IEEE International WIE Conference on Electrical and Computer Engineering (WIECON-ECE)</p>
+                            <p className="info-1">The paper is currently undergoing the process of publication, it will be up on IEEE Xplore soon. Please view the Camera Ready Submission in the meantime.</p>
+                        </VerticalTimelineElement>
+                    </VerticalTimeline>
                     {/* End Work */}
                     {/* Skills
       ----------------------------------------------- */}
@@ -203,7 +220,7 @@ export default class Resume extends Component {
                             </div>{/* end skill-bars */}
                     {/* </div> {/* main-col end */}
                     {/* </div> End skills */}
-                    <hr/>
+                    <hr />
                 </section>
             </React.Fragment>
         );
