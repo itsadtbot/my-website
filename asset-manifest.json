@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.fa9996ac.chunk.css",
-    "main.js": "/static/js/main.008502ad.chunk.js",
-    "main.js.map": "/static/js/main.008502ad.chunk.js.map",
+    "main.js": "/static/js/main.c73f3160.chunk.js",
+    "main.js.map": "/static/js/main.c73f3160.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4bbb00a6.js",
     "runtime-main.js.map": "/static/js/runtime-main.4bbb00a6.js.map",
-    "static/css/2.77ee867b.chunk.css": "/static/css/2.77ee867b.chunk.css",
-    "static/js/2.0f5e78b3.chunk.js": "/static/js/2.0f5e78b3.chunk.js",
-    "static/js/2.0f5e78b3.chunk.js.map": "/static/js/2.0f5e78b3.chunk.js.map",
+    "static/css/2.68c482b2.chunk.css": "/static/css/2.68c482b2.chunk.css",
+    "static/js/2.bec231d8.chunk.js": "/static/js/2.bec231d8.chunk.js",
+    "static/js/2.bec231d8.chunk.js.map": "/static/js/2.bec231d8.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9e8d6c993bc0174d31ae920188fd256d.js": "/precache-manifest.9e8d6c993bc0174d31ae920188fd256d.js",
+    "precache-manifest.4eee84807192825dc22893581ec0a415.js": "/precache-manifest.4eee84807192825dc22893581ec0a415.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.77ee867b.chunk.css.map": "/static/css/2.77ee867b.chunk.css.map",
+    "static/css/2.68c482b2.chunk.css.map": "/static/css/2.68c482b2.chunk.css.map",
     "static/css/main.fa9996ac.chunk.css.map": "/static/css/main.fa9996ac.chunk.css.map",
     "static/media/ColourPsych.pdf": "/static/media/ColourPsych.e9916276.pdf",
     "static/media/Coursera-HeuristicEval.pdf": "/static/media/Coursera-HeuristicEval.17f37ad0.pdf",
@@ -19,15 +19,16 @@
     "static/media/Hipmunk-UserTest.pdf": "/static/media/Hipmunk-UserTest.6d301cb0.pdf",
     "static/media/IEEEWIECONPaperID154.pdf": "/static/media/IEEEWIECONPaperID154.54d474c5.pdf",
     "static/media/Instagram_User_Assessment.pdf": "/static/media/Instagram_User_Assessment.483a9076.pdf",
+    "static/media/PreferenceTest-Hipmunk.pdf": "/static/media/PreferenceTest-Hipmunk.8afaa89b.pdf",
     "static/media/SUS.pdf": "/static/media/SUS.382405a9.pdf",
     "static/media/logo.svg": "/static/media/logo.25bf045c.svg",
     "static/media/styles.css": "/static/media/revicons.2feb69cc.eot"
   },
   "entrypoints": [
     "static/js/runtime-main.4bbb00a6.js",
-    "static/css/2.77ee867b.chunk.css",
-    "static/js/2.0f5e78b3.chunk.js",
+    "static/css/2.68c482b2.chunk.css",
+    "static/js/2.bec231d8.chunk.js",
     "static/css/main.fa9996ac.chunk.css",
-    "static/js/main.008502ad.chunk.js"
+    "static/js/main.c73f3160.chunk.js"
   ]
 }
