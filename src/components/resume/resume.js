@@ -2,8 +2,11 @@ import React, { Component } from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGraduationCap, faBriefcase, faHandsHelping, faBook } from '@fortawesome/free-solid-svg-icons'
+import { faGraduationCap, faBriefcase, faHandsHelping, faBook, faMedal } from '@fortawesome/free-solid-svg-icons'
 import Pdf from '../../projects/IEEEWIECONPaperID154.pdf'
+import Courses from '../../projects/Courses.pdf'
+import CountUp from 'react-countup';
+import VisibilitySensor from 'react-visibility-sensor';
 export default class Resume extends Component {
     render() {
         return (
@@ -73,6 +76,7 @@ export default class Resume extends Component {
                             icon={<FontAwesomeIcon icon={faBriefcase} size="lg" pull="left" />}
                         >
                             <h3 className="vertical-timeline-element-title">Hewlett Packard Enterprise</h3>
+                            <img src="images/resume/hpe.jpg"></img>
                             <p className="info">Research and Development Engineer </p>
                             <p className="info-1">• Part of the OS Enablement Team that ensures that Linux Operating Systems are correctly functioning on HPE Superdome Flex Servers</p>
                             <p className="info-1">• Assisting UX team in researching Data Visualization Methods for HPE softwares</p>
@@ -88,6 +92,7 @@ export default class Resume extends Component {
                             icon={<FontAwesomeIcon icon={faBriefcase} size="lg" pull="left" />}
                         >
                             <h3 className="vertical-timeline-element-title">Hewlett Packard Enterprise</h3>
+                            <img src="images/resume/hpe.jpg"></img>
                             <p className="info">Research and Development Intern </p>
                             <p className="info-1">• Automation of Data Centers with Ansible, Python and Expect Programming</p>
                             <p className="info-1">• Feasibility Study of Test Framework for Superdome Flex Servers</p>
@@ -102,6 +107,7 @@ export default class Resume extends Component {
                             icon={<FontAwesomeIcon icon={faBriefcase} size="lg" pull="left" />}
                         >
                             <h3 className="vertical-timeline-element-title">Toshiba Software India Pvt. Ltd.</h3>
+                            <img src="images/resume/toshiba.jpg"></img>
                             <p className="info">Mobile Application Development Intern </p>
                             <p className="info-1">Designed and developed an Android Application that connects to the User’s electricity meters, gas meters, heaters, and other appliances, giving them details about their hourly, daily, and monthly consumption along with a monthly budget. The App can also be used to set temperatures on the User’s appliances.</p>
                         </VerticalTimelineElement>
@@ -114,8 +120,39 @@ export default class Resume extends Component {
                             icon={<FontAwesomeIcon icon={faBriefcase} size="lg" pull="left" />}
                         >
                             <h3 className="vertical-timeline-element-title">Tessolve Semiconductors India Pvt. Ltd.</h3>
+                            <img src="images/resume/tessolve.jpg"></img>
                             <p className="info">Technical Intern </p>
                             <p className="info-1">Optimization of Technology Migration Scripts written in Perl and Python.</p>
+                        </VerticalTimelineElement>
+                        <VerticalTimelineElement
+                            className="vertical-timeline-element--work"
+                            contentStyle={{ background: 'rgb(FF, FF, FF)', color: '#fff' }}
+                            contentArrowStyle={{ borderRight: '7px solid  #F06000' }}
+                            date="Aug 2016-2018"
+                            iconStyle={{ background: '#11ABB0', color: '#ffffff' }}
+                            icon={<FontAwesomeIcon icon={faBriefcase} size="lg" pull="left" />}
+                        >
+                            <h3 className="vertical-timeline-element-title">The Psych Club Manipal</h3>
+                            <p className="info">President</p>
+                            <img src="images/portfolio/psychology.png"></img>
+                            <p className="info-1">• Started an event known as "Blindfolded Conversations", which aims to enable people to interact without the fear of judgment based on physical attributes.</p>
+                            <p className="info-1">• Conducted Mental Health Awareness workshops along with clinical psychologists.</p>
+                            <p className="info-1">• Led workshops on Emotional Intelligence, Body Language, The Psychology of Music, The Psychology of Colour, etc.</p>
+                        </VerticalTimelineElement>
+                        
+                        <VerticalTimelineElement
+                            className="vertical-timeline-element--work"
+                            contentStyle={{ background: 'rgb(FF, FF, FF)', color: '#fff' }}
+                            contentArrowStyle={{ borderRight: '7px solid  #F06000' }}
+                            date="Aug 2016-2018"
+                            iconStyle={{ background: '#11ABB0', color: '#ffffff' }}
+                            icon={<FontAwesomeIcon icon={faBriefcase} size="lg" pull="left" />}
+                        >
+                            <h3 className="vertical-timeline-element-title">IECSE Manipal</h3>
+                            <p className="info">Executive Board Member</p>
+                            <img src="images/resume/iecse.jpg"></img>
+                            <p className="info-1">• Editor in Chief of Hashtag- IECSE's Technical Blog</p>
+                            <p className="info-1">• IECSE is the Official Computer Science Club of Manipal whose vision is to uplift the CS Culture in Manipal through workshops, events and competitions</p>
                         </VerticalTimelineElement>
 
                     </VerticalTimeline>
@@ -189,10 +226,39 @@ export default class Resume extends Component {
                             icon={<FontAwesomeIcon icon={faBook} size="lg" pull="left" />}
                         >
                             <h3 className="vertical-timeline-element-title">Mobile Phone Usability and its Influence on Brand Loyalty and Re-Purchase Intention: An Empirical Study</h3>
-                            <a href = {Pdf} target = "_blank">View Camera Ready Submission</a>
+                            <a href={Pdf} target="_blank">View Camera Ready Submission</a>
                             <p className="info">2019 5th IEEE International WIE Conference on Electrical and Computer Engineering (WIECON-ECE)</p>
                             <p className="info-1">The paper is currently undergoing the process of publication, it will be up on IEEE Xplore soon. Please view the Camera Ready Submission in the meantime.</p>
                         </VerticalTimelineElement>
+                    </VerticalTimeline>
+                    <div>
+                        <h1><span>Courses</span></h1>
+                    </div>
+
+                    <VerticalTimeline>
+                        <VerticalTimelineElement
+                            className="vertical-timeline-element--work"
+                            contentStyle={{ background: 'rgb(FF, FF, FF)', color: '#fff' }}
+                            contentArrowStyle={{ borderRight: '7px solid  #F06000' }}
+                            date=""
+                            iconStyle={{ background: '#11ABB0', color: '#ffffff' }}
+                            icon={<FontAwesomeIcon icon={faMedal} size="lg" pull="left" />}
+                        >
+                            <h3 className="vertical-timeline-element-title">I have a completed a total of</h3>
+                            <h1 className="vertical-timeline-element-title">
+                                <CountUp end={88} redraw={true}>
+                                    {({ countUpRef, start }) => (
+                                        <VisibilitySensor onChange={start} delayedCall>
+                                            <span ref={countUpRef} />
+                                        </VisibilitySensor>
+                                    )}
+                                </CountUp>
+                            </h1>
+                            <br />
+                            <h3> courses</h3>
+                            <p className="info-1">I have completed 88 courses on Coursera in the fields of User Experience Research and Design, Deep Learning, Web Design and Development, Python Programming, Blockchain, Psychology, Business Analysis, Data Science, Search Engine Optimisation and Business Management.</p>
+                            <a href={Courses} target="_blank">View a list of all courses here</a>
+                       </VerticalTimelineElement>
                     </VerticalTimeline>
                     {/* End Work */}
                     {/* Skills
@@ -220,6 +286,9 @@ export default class Resume extends Component {
                             </div>{/* end skill-bars */}
                     {/* </div> {/* main-col end */}
                     {/* </div> End skills */}
+                    {/* <div>
+                        <h3>Download my resume here</h3>
+                    </div> */}
                     <hr />
                 </section>
             </React.Fragment>

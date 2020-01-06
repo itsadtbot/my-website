@@ -11,19 +11,23 @@ export default class Contact extends Component {
                         <div class="twelve columns">
 
                             <ul class="social-links">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                            <li><a href="https://www.facebook.com/aditi.bhat.37" target="_blank"><i className="fa fa-facebook" /></a></li>
+                                <li><a href="https://www.instagram.com/itsadtbot" target="_blank"><i className="fa fa-instagram" /></a></li>
+                                <li><a href="https://www.youtube.com/hoopsdontlie" target="_blank"><i className="fa fa-youtube" /></a></li>
+                                <li><a href="https://www.linkedin.com/in/aditibhat7" target="_blank"><i className="fa fa-linkedin" /></a></li>
+                                {/* <li><a href="https://www.linkedin.com/in/aditibhat7" target="_blank"><i className="fa fa-wordpress" /></a></li> */}
+                                <li><a href="https://twitter.com/itsadtbot" target="_blank"><i className="fa fa-twitter" /></a></li>
+                                {/* <li><a href="#"><i className="fa fa-google-plus" /></a></li> */}
+                                
+                                
+                                {/* <li><a href="#"><i className="fa fa-dribbble" /></a></li> */}
+                                <li><a href="https://join.skype.com/invite/kP12MErRSocy" target="_blank"><i className="fa fa-skype" /></a></li>
                             </ul>
 
-                            <ul class="copyright">
+                            {/* <ul class="copyright">
                                 <li>&copy; Copyright 2014 CeeVee</li>
-                                <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
-                            </ul>
+                                <li>Templa by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
+                            </ul> */}
 
                         </div>
 

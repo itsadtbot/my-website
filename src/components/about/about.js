@@ -15,7 +15,7 @@ export default class About extends Component {
 
                             <h2>About Me</h2>
 
-                            <p>To be updated</p>
+                            {/* <p>To be updated</p> */}
                             <br/>
                             <hr/>
                             
@@ -27,7 +27,7 @@ export default class About extends Component {
                             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
                                 <div className="columns portfolio-item">
                                     <div className="item-wrap">
-                                        <a href="#modal-01" title>
+                                        {/* <a href="#modal-01" title> */}
                                             <img alt="" src="images/portfolio/travel.jpg" />
                                             <div className="overlay">
                                                 <div className="portfolio-item-meta">
@@ -35,13 +35,13 @@ export default class About extends Component {
                                                     {/* <p>Illustrration</p> */}
                                                 </div>
                                             </div>
-                                            <div className="link-icon"><i className="icon-plus" /></div>
-                                        </a>
+                                            {/* <div className="link-icon"><i className="icon-plus" /></div> */}
+                                        {/* </a> */}
                                     </div>
                                 </div> {/* item end */}
                                 <div className="columns portfolio-item">
                                     <div className="item-wrap">
-                                        <a href="#modal-02" title>
+                                        {/* <a href="#modal-02" title> */}
                                             <img alt="" src="images/portfolio/hooping.jpg" />
                                             <div className="overlay">
                                                 <div className="portfolio-item-meta">
@@ -49,13 +49,13 @@ export default class About extends Component {
                                                     {/* <p>Web Development</p> */}
                                                 </div>
                                             </div>
-                                            <div className="link-icon"><i className="icon-plus" /></div>
-                                        </a>
+                                            {/* <div className="link-icon"><i className="icon-plus" /></div> */}
+                                        {/* </a> */}
                                     </div>
                                 </div> {/* item end */}
                                 <div className="columns portfolio-item">
                                     <div className="item-wrap">
-                                        <a href="#modal-03" title>
+                                        {/* <a href="#modal-03" title> */}
                                             <img alt="" src="images/portfolio/psychology.png" />
                                             <div className="overlay">
                                                 <div className="portfolio-item-meta">
@@ -63,13 +63,13 @@ export default class About extends Component {
                                                     {/* <p>Webdesign</p> */}
                                                 </div>
                                             </div>
-                                            <div className="link-icon"><i className="icon-plus" /></div>
-                                        </a>
+                                            {/* <div className="link-icon"><i className="icon-plus" /></div> */}
+                                        {/* </a> */}
                                     </div>
                                 </div> {/* item end */}
                                 <div className="columns portfolio-item">
                                     <div className="item-wrap">
-                                        <a href="#modal-04" title>
+                                        {/* <a href="#modal-04" title> */}
                                             <img alt="" src="images/portfolio/baking.jpg" />
                                             <div className="overlay">
                                                 <div className="portfolio-item-meta">
@@ -77,13 +77,13 @@ export default class About extends Component {
                                                     {/* <p>Photography</p> */}
                                                 </div>
                                             </div>
-                                            <div className="link-icon"><i className="icon-plus" /></div>
-                                        </a>
+                                            {/* <div className="link-icon"><i className="icon-plus" /></div> */}
+                                        {/* </a> */}
                                     </div>
                                 </div> {/* item end */}
                                 <div className="columns portfolio-item">
                                     <div className="item-wrap">
-                                        <a href="#modal-05" title>
+                                        {/* <a href="#modal-05" title> */}
                                             <img alt="" src="images/portfolio/volunteer.jpg" />
                                             <div className="overlay">
                                                 <div className="portfolio-item-meta">
@@ -91,13 +91,13 @@ export default class About extends Component {
                                                     {/* <p>Branding</p> */}
                                                 </div>
                                             </div>
-                                            <div className="link-icon"><i className="icon-plus" /></div>
-                                        </a>
+                                            {/* <div className="link-icon"><i className="icon-plus" /></div> */}
+                                        {/* </a> */}
                                     </div>
                                 </div> {/* item end */}
                                 <div className="columns portfolio-item">
                                     <div className="item-wrap">
-                                        <a href="#modal-06" title>
+                                        {/* <a href="#modal-06" title> */}
                                             <img alt="" src="images/portfolio/poetry.jpg" />
                                             <div className="overlay">
                                                 <div className="portfolio-item-meta">
@@ -105,13 +105,13 @@ export default class About extends Component {
                                                     {/* <p>Photography</p> */}
                                                 </div>
                                             </div>
-                                            <div className="link-icon"><i className="icon-plus" /></div>
-                                        </a>
+                                            {/* <div className="link-icon"><i className="icon-plus" /></div> */}
+                                        {/* </a> */}
                                     </div>
                                 </div> {/* item end */}
                                 <div className="columns portfolio-item">
                                     <div className="item-wrap">
-                                        <a href="#modal-07" title>
+                                        {/* <a href="#modal-07" title> */}
                                             <img alt="" src="images/portfolio/art.jpg" />
                                             <div className="overlay">
                                                 <div className="portfolio-item-meta">
@@ -119,13 +119,13 @@ export default class About extends Component {
                                                     {/* <p>Illustrration</p> */}
                                                 </div>
                                             </div>
-                                            <div className="link-icon"><i className="icon-plus" /></div>
-                                        </a>
+                                            {/* <div className="link-icon"><i className="icon-plus" /></div> */}
+                                        {/* </a> */}
                                     </div>
                                 </div> {/* item end */}
                                 <div className="columns portfolio-item">
                                     <div className="item-wrap">
-                                        <a href="#modal-08" title>
+                                        {/* <a href="#modal-08" title> */}
                                             <img alt="" src="images/portfolio/decor.jpg" />
                                             <div className="overlay">
                                                 <div className="portfolio-item-meta">
@@ -133,8 +133,8 @@ export default class About extends Component {
                                                     {/* <p>Web Development</p> */}
                                                 </div>
                                             </div>
-                                            <div className="link-icon"><i className="icon-plus" /></div>
-                                        </a>
+                                            {/* <div className="link-icon"><i className="icon-plus" /></div> */}
+                                        {/* </a> */}
                                     </div>
                                 </div>  {/* item end */}
                             </div> {/* portfolio-wrapper end */}

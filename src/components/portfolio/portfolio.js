@@ -4,6 +4,9 @@ import AwesomeSliderStyles from 'react-awesome-slider/src/styled/cube-animation'
 import Instagram from '../../projects/Instagram_User_Assessment.pdf'
 import SUS from '../../projects/SUS.pdf'
 import CourseraHE from '../../projects/Coursera-HeuristicEval.pdf'
+import HipmunkUT from '../../projects/Hipmunk-UserTest.pdf'
+import HipmunkPT from '../../projects/PreferenceTest-Hipmunk.pdf'
+import ColourPsych from '../../projects/ColourPsych.pdf'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 const responsive = {
@@ -65,7 +68,7 @@ export default class Portfolio extends Component {
                         <div className="columns portfolio-item">
                             <div>
                                 <div className="item-wrap">
-                                    <a href="#modal-02" title>
+                                    <a href="#modal-insta" title>
                                         <img src="images/portfolio/instagram.jpg"></img>
                                         <div className="overlay">
                                             <div className="portfolio-item-meta">
@@ -113,12 +116,60 @@ export default class Portfolio extends Component {
                         <div className="columns portfolio-item">
                             <div>
                                 <div className="item-wrap">
-                                    <a href="#modal-02" title>
-                                        <img src="images/portfolio/art.jpg"></img>
+                                    <a href="#modal-HipmunkUT" title>
+                                        <img src="images/portfolio/hipmunk.jpg"></img>
                                         <div className="overlay">
                                             <div className="portfolio-item-meta">
-                                                <h5>Hula Hooping</h5>
-                                                <p>Web Development</p>
+                                                <h5>Hipmunk - User Test</h5>
+                                                {/* <p>Web Development</p> */}
+                                            </div>
+                                        </div>
+                                        <div className="link-icon"><i className="icon-plus" /></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="columns portfolio-item">
+                            <div>
+                                <div className="item-wrap">
+                                    <a href="#modal-ColourPsych" title>
+                                        <img src="images/portfolio/ColourPsych.jpg"></img>
+                                        <div className="overlay">
+                                            <div className="portfolio-item-meta">
+                                                <h5>The Psychology of Colour</h5>
+                                                {/* <p>Web Development</p> */}
+                                            </div>
+                                        </div>
+                                        <div className="link-icon"><i className="icon-plus" /></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="columns portfolio-item">
+                            <div>
+                                <div className="item-wrap">
+                                    <a href="#modal-HipmunkPT" title>
+                                        <img src="images/portfolio/hipmunk-1.jpg"></img>
+                                        <div className="overlay">
+                                            <div className="portfolio-item-meta">
+                                                <h5>Hipmunk - Preference Test</h5>
+                                                {/* <p>Web Development</p> */}
+                                            </div>
+                                        </div>
+                                        <div className="link-icon"><i className="icon-plus" /></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="columns portfolio-item">
+                            <div>
+                                <div className="item-wrap">
+                                    <a href="#modal-AEDV" title>
+                                        <img src="images/portfolio/AEDV.jpg"></img>
+                                        <div className="overlay">
+                                            <div className="portfolio-item-meta">
+                                                <h5>Hipmunk - Preference Test</h5>
+                                                {/* <p>Web Development</p> */}
                                             </div>
                                         </div>
                                         <div className="link-icon"><i className="icon-plus" /></div>
@@ -128,7 +179,7 @@ export default class Portfolio extends Component {
                         </div>
 
                     </Carousel>
-                    <div id="modal-02" className="popup-modal mfp-hide">
+                    <div id="modal-insta" className="popup-modal mfp-hide">
                         <img className="scale-with-grid" src="images/portfolio/affinitywall.jpg" alt="User Needs Assessment - Instagram" />
                         <div className="description-box">
                             <h4>User Needs Assessment - Instagram</h4>
@@ -162,6 +213,50 @@ What do Instagrammers find useful or frustrating while uploading their pictures?
                         </div>
                         <div className="link-box">
                             <a href = {CourseraHE} target = "_blank">Open PDF</a>
+                            <a className="popup-modal-dismiss">Close</a>
+                        </div>
+                    </div>
+                    <div id="modal-HipmunkUT" className="popup-modal mfp-hide">
+                        <img className="scale-with-grid" src="images/portfolio/hipmunk.png" alt="User Test of Hipmunk" />
+                        <div className="description-box">
+                            <h4>User Test of Hipmunk</h4>
+                            <span className="categories"><i className="fa fa-tag" />User Experience, User Interface Design, Web Design</span>
+                        </div>
+                        <div className="link-box">
+                            <a href = {HipmunkUT} target = "_blank">Open PDF</a>
+                            <a className="popup-modal-dismiss">Close</a>
+                        </div>
+                    </div>
+                    <div id="modal-ColourPsych" className="popup-modal mfp-hide">
+                        <img className="scale-with-grid" src="images/portfolio/cPsych.jpg" alt="The Psychology of Colour" />
+                        <div className="description-box">
+                            <h4>The Psychology of Colour</h4>
+                            <span className="categories"><i className="fa fa-tag" />User Experience, User Interface Design, Web Design</span>
+                        </div>
+                        <div className="link-box">
+                            <a href = {ColourPsych} target = "_blank">Open PDF</a>
+                            <a className="popup-modal-dismiss">Close</a>
+                        </div>
+                    </div>
+                    <div id="modal-HipmunkPT" className="popup-modal mfp-hide">
+                        <img className="scale-with-grid" src="images/portfolio/hipmunk.png" alt="Hipmunk- Preference Test" />
+                        <div className="description-box">
+                            <h4>Hipmunk - Preference Test</h4>
+                            <span className="categories"><i className="fa fa-tag" />User Experience, User Interface Design, Web Design</span>
+                        </div>
+                        <div className="link-box">
+                            <a href = {HipmunkPT} target = "_blank">Open PDF</a>
+                            <a className="popup-modal-dismiss">Close</a>
+                        </div>
+                    </div>
+                    <div id="modal-AEDV" className="popup-modal mfp-hide">
+                        <img className="scale-with-grid" src="images/portfolio/mAEDV.JPG" alt="Data Visualization with After Effects" />
+                        <div className="description-box">
+                            <h4>Data Visualization</h4>
+                            <span className="categories"><i className="fa fa-tag" />User Experience, User Interface Design, Web Design</span>
+                        </div>
+                        <div className="link-box">
+                            <a href = "https://spark.adobe.com/page/A87nbUJEfIiiW/" target = "_blank">Open Link</a>
                             <a className="popup-modal-dismiss">Close</a>
                         </div>
                     </div>
