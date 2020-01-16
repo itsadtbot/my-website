@@ -252,9 +252,14 @@ ul#nav li.current a {
     color: #11ABB0;
 }
 
+#about h1 {
+    font: 24px/32px 'opensans-bold', sans-serif;
+    color: #FFF;
+    margin-bottom: 12px;
+}
 #about h2 {
     font: 22px/30px 'opensans-bold', sans-serif;
-    color: #fff;
+    color: #000;
     margin-bottom: 12px;
 }
 
