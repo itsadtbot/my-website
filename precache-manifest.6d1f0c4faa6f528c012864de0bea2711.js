@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4127cc3785f3bbf66450a17054d32e72",
+    "revision": "e329d124e8c7bb0e626021980fafebc1",
     "url": "/index.html"
   },
   {
-    "revision": "d00bb3afeb71d7f87218",
+    "revision": "c0441176fd2e8bd2df3d",
     "url": "/static/css/2.0b07bcbe.chunk.css"
   },
   {
-    "revision": "358a32f602d589241010",
-    "url": "/static/css/main.fa9996ac.chunk.css"
+    "revision": "611fa2c9cf863a2fc216",
+    "url": "/static/css/main.628d5cf4.chunk.css"
   },
   {
-    "revision": "d00bb3afeb71d7f87218",
-    "url": "/static/js/2.97e84b94.chunk.js"
+    "revision": "c0441176fd2e8bd2df3d",
+    "url": "/static/js/2.74865e46.chunk.js"
   },
   {
-    "revision": "358a32f602d589241010",
-    "url": "/static/js/main.0931d1ec.chunk.js"
+    "revision": "611fa2c9cf863a2fc216",
+    "url": "/static/js/main.d246402b.chunk.js"
   },
   {
     "revision": "1bcf67dcf5603f73b617",
     "url": "/static/js/runtime-main.4bbb00a6.js"
+  },
+  {
+    "revision": "89b44abfcd04b4720436358846abf8a8",
+    "url": "/static/media/Baking.89b44abf.pdf"
   },
   {
     "revision": "e99162768f42965a5e20e445daebe6e6",
@@ -34,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c857d2726799bcbbe171a0d540cac663",
     "url": "/static/media/Courses.c857d272.pdf"
+  },
+  {
+    "revision": "fb4af6810856ac5c208250265c3338f8",
+    "url": "/static/media/GroupTheory.fb4af681.jpg"
   },
   {
     "revision": "6d301cb0cade4a97493feb2a0fcb10b7",
@@ -56,8 +64,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/SUS.382405a9.pdf"
   },
   {
+    "revision": "eff933d60e04bef162791f41298339a7",
+    "url": "/static/media/dot.eff933d6.jpg"
+  },
+  {
     "revision": "25bf045ca257e971124f3997d89f321c",
     "url": "/static/media/logo.25bf045c.svg"
+  },
+  {
+    "revision": "1c5bbdc61f83edc6520c3d2967bdfddf",
+    "url": "/static/media/m-decor.1c5bbdc6.jpg"
+  },
+  {
+    "revision": "ea2cb1ff824ee3cee6fa3d8c383f807a",
+    "url": "/static/media/quill.ea2cb1ff.jpg"
   },
   {
     "revision": "04eb8fc57f27498e5ae37523e3bfb2c7",

@@ -242,7 +242,7 @@ ul#nav li.current a {
     overflow: hidden;
 }
 
-#about a,
+/* #about a,
 #about a:visited {
     color: #fff;
 }
@@ -250,7 +250,7 @@ ul#nav li.current a {
 #about a:hover,
 #about a:focus {
     color: #11ABB0;
-}
+} */
 
 #about h1 {
     font: 24px/32px 'opensans-bold', sans-serif;
@@ -263,8 +263,8 @@ ul#nav li.current a {
     margin-bottom: 12px;
 }
 #about h3 {
-    font-family: 'Crimson Text', serif;
-    font-size: 18px; 
+    font-family: 'opensans-regular', sans-serif;
+    font-size: 15px; 
     color: #000;
     margin-bottom: 12px;
     text-align: left;
@@ -314,9 +314,13 @@ ul#nav li.current a {
     text-align: left;
 }
 
+#about .card-title a {
+    color: #11ABB0;
+}
+
 #about li {
-    font-family: 'Crimson Text', serif;
-    font-size: 18px; 
+    font-family: 'opensans-regular', sans-serif;
+    font-size: 15px; 
 }
 
 #about span {
@@ -674,11 +678,13 @@ ul#nav li.current a {
     -o-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+
 }
 
 .portfolio-item .item-wrap a {
     display: block;
     cursor: pointer;
+    
 }
 
 
@@ -724,6 +730,7 @@ ul#nav li.current a {
 
 .portfolio-item .item-wrap img {
     vertical-align: bottom;
+    
 }
 
 .portfolio-item .portfolio-item-meta {
