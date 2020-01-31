@@ -262,6 +262,13 @@ ul#nav li.current a {
     color: #000;
     margin-bottom: 12px;
 }
+#about h3 {
+    font-family: 'Crimson Text', serif;
+    font-size: 18px; 
+    color: #000;
+    margin-bottom: 12px;
+    text-align: left;
+}
 
 #about p {
     line-height: 30px;
@@ -301,6 +308,20 @@ ul#nav li.current a {
 #about .download .button i {
     margin-right: 15px;
     font-size: 20px;
+}
+
+#about .card-title {
+    text-align: left;
+}
+
+#about li {
+    font-family: 'Crimson Text', serif;
+    font-size: 18px; 
+}
+
+#about span {
+    float: right;
+    
 }
 
 
