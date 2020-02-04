@@ -222,6 +222,9 @@
       padding: 15px 20px;
    }
    #about .main-col { padding-right: 30px; }
+   /* #about .Grid {
+      flex-direction: column;
+   } */
 
 
    /* Resume Section
@@ -370,6 +373,10 @@
    /* social links */
    footer .social-links { font-size: 20px; }
    footer .social-links li { margin-left: 14px; }   
+
+   #about .Grid {
+      flex-direction: column;
+   }
 
 }
 

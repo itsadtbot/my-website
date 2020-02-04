@@ -17,17 +17,19 @@ export default class Contact extends Component {
                                 <li><a href="https://www.linkedin.com/in/aditibhat7" target="_blank"><i className="fa fa-linkedin" /></a></li>
                                 {/* <li><a href="https://www.linkedin.com/in/aditibhat7" target="_blank"><i className="fa fa-wordpress" /></a></li> */}
                                 <li><a href="https://twitter.com/itsadtbot" target="_blank"><i className="fa fa-twitter" /></a></li>
-                                {/* <li><a href="#"><i className="fa fa-google-plus" /></a></li> */}
+                                <li><a href="https://github.com/itsadtbot" target="_blank"><i className="fa fa-github" /></a></li>
                                 
-                                
+                                <li><a href="mailto:aditiabhat@gmail.com" target="_blank"><i className="fa fa-envelope" /></a></li>
+
                                 {/* <li><a href="#"><i className="fa fa-dribbble" /></a></li> */}
                                 <li><a href="https://join.skype.com/invite/kP12MErRSocy" target="_blank"><i className="fa fa-skype" /></a></li>
                             </ul>
 
-                            {/* <ul class="copyright">
+                            <ul class="copyright">
                                 <li>&copy; Copyright 2014 CeeVee</li>
-                                <li>Templa by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
-                            </ul> */}
+                                <li>Template by Styleshout</li>
+                                <li>Edited by Aditi Bhat</li>
+                            </ul>
 
                         </div>
 
