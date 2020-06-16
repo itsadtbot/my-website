@@ -798,7 +798,7 @@ ul#nav li.current a {
 }
 
 #blogs h1 {
-    font: 48px/30px 'opensans-bold', sans-serif;
+    font: 3em 'opensans-bold', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
@@ -813,7 +813,7 @@ ul#nav li.current a {
 }
 
 #blogs h2 {
-    font: 30px/24px 'opensans-bold', sans-serif;
+    font: 1.875em 'opensans-bold', sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     text-align: left;
@@ -823,27 +823,30 @@ ul#nav li.current a {
 
 #blogs p {
     font-family: 'opensans-regular', sans-serif;
-    font-size: 24px;
+    font-size: 1.5em;
     letter-spacing: 0.5px;
     text-align: justify;
     color: #0D0D0D;
 }
 
 #blogs b {
-    font-family: 'opensans-bold', sans-serif;
-    font-size: 24px;
+    font: 1.5em 'opensans-bold', sans-serif;
     letter-spacing: 0.5px;
     text-align: justify;
     color: #0D0D0D;
 }
 
 #blogs ol {
-    font: 24px 'opensans-regular', sans-serif;
+    font: 1.5em 'opensans-regular', sans-serif;
     letter-spacing: 0.5px;
     text-align: justify;
     list-style-position: inside;
     color: #0D0D0D;
+    
+}
 
+#blogs li {
+    line-height: normal;
 }
 
 #blogs h1 span {
