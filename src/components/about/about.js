@@ -14,6 +14,7 @@ import GT from '../../projects/GroupTheory.jpg'
 import quill from '../../projects/quill.jpg'
 import dot from '../../projects/dot.jpg'
 import decor from '../../projects/m-decor.jpg'
+import { Link } from 'react-router-dom'
 const responsive = {
     desktop: {
         breakpoint: { max: 3000, min: 1024 },
@@ -34,7 +35,7 @@ const responsive = {
         // optional, default to 1.
     },
 };
-export default class About extends Component {
+class About extends Component {
 
     render() {
         return (
@@ -42,7 +43,7 @@ export default class About extends Component {
                 <section id="about">
                     <div className="row">
                         <div className="three columns">
-                            <img className="profile-pic" src="https://secure.gravatar.com/avatar/c850f6e86af4253521f6cc9028257398" alt="Aditi Bhat's Profile Picture" />
+                        <img className="profile-pic" src="https://secure.gravatar.com/avatar/c850f6e86af4253521f6cc9028257398" alt="Aditi Bhat's Profile Picture" />
                         </div>
                         <div class="nine columns main-col">
 
@@ -372,3 +373,5 @@ export default class About extends Component {
         );
     }
 }
+
+export default About;

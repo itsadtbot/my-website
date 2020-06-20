@@ -7,7 +7,7 @@ import Pdf from '../../projects/IEEEWIECONPaperID154.pdf'
 import Courses from '../../projects/Courses.pdf'
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
-export default class Resume extends Component {
+class Resume extends Component {
     render() {
         return (
             <React.Fragment>
@@ -57,7 +57,7 @@ export default class Resume extends Component {
                         >
 
                             <h3 className="vertical-timeline-element-title">Bethany High School</h3>
-                            <p className="info">X ICSE<span>•</span>93.75%</p>
+                            <p className="info">X ICSE<span>•</span>92.17%</p>
                             <p className="info-1">Best Outgoing Student Award</p>
                             <p className="info-1">Head Girl of the Bethany Student Organisation</p>
                         </VerticalTimelineElement>
@@ -252,7 +252,7 @@ export default class Resume extends Component {
                             iconStyle={{ background: '#11ABB0', color: '#ffffff' }}
                             icon={<FontAwesomeIcon icon={faMedal} size="lg" pull="left" />}
                         >
-                            <h3 className="vertical-timeline-element-title">I have a completed a total of</h3>
+                            <h3 className="vertical-timeline-element-title">I have completed a total of</h3>
                             <h1 className="vertical-timeline-element-title">
                                 <CountUp end={88} redraw={true}>
                                     {({ countUpRef, start }) => (
@@ -303,3 +303,4 @@ export default class Resume extends Component {
         );
     }
 }
+export default Resume;

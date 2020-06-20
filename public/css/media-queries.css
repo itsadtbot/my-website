@@ -13,8 +13,13 @@
 
     /* header styles
    ------------------------------------------------------------------ */
-   header .banner-text h1 {
+   .banner-text h1 {
       font: 80px/1.1em 'opensans-bold', sans-serif;
+      letter-spacing: -1px;
+      margin: 0 auto 12px auto;
+   }
+   .banner-text h2 {
+      font: 60px/1.1em 'opensans-bold', sans-serif;
       letter-spacing: -1px;
       margin: 0 auto 12px auto;
    }
@@ -27,16 +32,20 @@
 
     /* header styles
    ------------------------------------------------------------------ */
-   header .banner { padding-bottom: 12px; }
-   header .banner-text h1 {
+    .banner { padding-bottom: 12px; }
+    .banner-text h1 {
       font: 78px/1.1em 'opensans-bold', sans-serif;
       letter-spacing: -1px;      
    }
-   header .banner-text h3 {
+   .banner-text h2 {
+      font: 55px/1.1em 'opensans-bold', sans-serif;
+      letter-spacing: -1px;      
+   }
+    .banner-text h3 {
       font: 17px/1.9em 'librebaskerville-regular', serif;
       width: 80%;
    }
-   header .banner-text hr {
+    .banner-text hr {
       width: 65%;
       margin: 12px auto;
    }
@@ -187,30 +196,31 @@
 
    /* Header Styles
    -------------------------------------------------------------------- */
-   header .banner {
+    .banner {
       padding-bottom: 12px;
       padding-top: 6px;
    }
-   header .banner-text h1 { font: 68px/1.1em 'opensans-bold', sans-serif; }
-   header .banner-text h3 {
+    .banner-text h1 { font: 68px/1.1em 'opensans-bold', sans-serif; }
+    .banner-text h2 { font: 60px/1.1em 'opensans-bold', sans-serif; }
+    .banner-text h3 {
       font: 16px/1.9em 'librebaskerville-regular', serif;
       width: 85%;
    }
-   header .banner-text hr {
+    .banner-text hr {
       width: 80%;
       margin: 18px auto;
    }
 
    /* header social links */
-   header .social {
+    .social {
       margin: 18px 0 24px 0;
       font-size: 24px;
       line-height: 36px;      
    }
-   header .social li { margin: 0 10px; }
+    .social li { margin: 0 10px; }
 
     /* scrolldown link */
-   header .scrolldown { display: none; }
+    .scrolldown { display: none; }
 
 
    /* About Section
@@ -285,7 +295,18 @@
       margin-left: -30px;
    }
 
-
+   #blogs h1 {
+      font-size: 1.5em;
+   }
+   #blogs h2 {
+      font-size: 1.25em;
+   }
+   #blogs p {
+      font-size: 1em;
+   }
+   #blogs ol,li  {
+      font-size: 1em;
+   }
    /* contact Section
    ----------------------------------------------------------------------- */
    #contact { padding-bottom: 66px; }
@@ -348,24 +369,32 @@
 @media only screen and (max-width: 480px) {
 
    /* mobile navigation
+   
    -------------------------------------------------------------------- */
    #nav-wrap ul#nav { width: auto; float: none; }
 
    /* header styles
    -------------------------------------------------------------------- */
-   header .banner { padding-top: 24px; }
-   header .banner-text h1 {
-      font: 40px/1.1em 'opensans-bold', sans-serif;      
-      margin: 0 auto 24px auto;
+    .banner { padding-top: 24px; }
+    .banner-text h1 {
+      font: 10vw 'opensans-bold', sans-serif;      
+      margin: 5vw;
+      text-align: center;
    }
-   header .banner-text h3 {
+   .banner-text h2 {
+      font: 8vw 'opensans-bold', sans-serif;      
+      margin: 5vw;
+      text-align: center;
+   }
+    .banner-text h3 {
       font: 14px/1.9em 'librebaskerville-regular', sans-serif;
-      width: 90%;
+      white-space: nowrap !important;
+      /* width: 90%; */
    }
   
    /* header social links */
-   header .social { font-size: 20px;}
-   header .social li { margin: 0 6px; }
+    .social { font-size: 20px; margin: 18px 18vw 24px 0vw;}
+    .social li { margin: 0 6px; }
 
    /* footer
    ------------------------------------------------------------------------ */

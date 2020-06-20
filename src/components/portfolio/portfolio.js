@@ -7,8 +7,11 @@ import CourseraHE from '../../projects/Coursera-HeuristicEval.pdf'
 import HipmunkUT from '../../projects/Hipmunk-UserTest.pdf'
 import HipmunkPT from '../../projects/PreferenceTest-Hipmunk.pdf'
 import ColourPsych from '../../projects/ColourPsych.pdf'
+import { BrowserRouter as Router, Switch, Route, Link, useParams, useRouteMatch } from 'react-router-dom';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import About from '../about/about'
+import Projects from '../projects/projects';
 const responsive = {
     desktop: {
         breakpoint: { max: 3000, min: 1024 },
@@ -29,14 +32,16 @@ const responsive = {
         // optional, default to 1.
     },
 };
+// let 
 
 
 
-
-export default class Portfolio extends Component {
+class Portfolio extends Component {
 
     render() {
+
         return (
+
             <React.Fragment>
                 <section id="portfolio">
                     <div>
@@ -45,6 +50,9 @@ export default class Portfolio extends Component {
                     <br />
                     <div>
                         <h2>Check out some of my work here!</h2>
+                        {/* <li>
+                            <Link to={`/projects/example`}>About</Link>
+                        </li> */}
                     </div>
                     <br />
                     {/* <Carousel
@@ -71,7 +79,9 @@ export default class Portfolio extends Component {
                                 <div className="columns portfolio-item">
                                     <div>
                                         <div className="item-wrap">
+                                            {/* <Link to={`/projects/Instagram-Assessment`}> */}
                                             <a href={Instagram} target="_blank">
+                                                {/* <Link to={`/projects/about`} target="_blank"> */}
                                                 <img src="images/portfolio/instagram.jpg" alt="Aditi Bhat Instagram"></img>
                                                 <div className="overlay">
                                                     <div className="portfolio-item-meta">
@@ -81,6 +91,8 @@ export default class Portfolio extends Component {
                                                 </div>
                                                 <div className="link-icon"><i className="icon-plus" /></div>
                                             </a>
+                                            {/* </Link> */}
+
                                         </div>
                                     </div>
                                 </div>
@@ -204,7 +216,7 @@ export default class Portfolio extends Component {
                                 <div className="description-box">
                                     <h4>User Needs Assessment - Instagram</h4>
                                     <p>Instagram is a popular social media platform with over 1 billion active users. Users share moments of their life via photos with their friends and family. Businesses use Instagram to increase their customer base and spread awareness.
-        What do Instagrammers find useful or frustrating while uploading their pictures? I want to explore the whole process of uploading a picture (or multiple pictures) and understand which parts users like and don't like.
+                                    What do Instagrammers find useful or frustrating while uploading their pictures? I want to explore the whole process of uploading a picture (or multiple pictures) and understand which parts users like and don't like.
 </p>
                                     <span className="categories"><i className="fa fa-tag" />User Experience, Social Media</span>
                                 </div>
@@ -293,10 +305,27 @@ export default class Portfolio extends Component {
                             </div>
                         </div>
                     </div>
-
+                    {/* <Switch>
+                        <Route exact path='/projects' component={Portfolio} />
+                        <Route path='/projects/example' component={About} />
+                    </Switch> */}
 
                 </section>
-            </React.Fragment>
+                {/* <Switch>
+                    <Route exact path='/projects' component={Projects} />
+                    <Route path='/projects/example' component={About} />
+                </Switch> */}
+            </React.Fragment >
+
         );
     }
 }
+export default Portfolio;
+
+{/* <Link to={`/roster/${p.number}`}>{p.name}</Link> */ }
+// const Roster = () => (
+//     <Switch>
+//       <Route exact path='/roster' component={FullRoster}/>
+//       <Route path='/roster/:number' component={Player}/>
+//     </Switch>
+//   )
