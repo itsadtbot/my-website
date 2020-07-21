@@ -234,9 +234,9 @@ class Resume extends Component {
                             icon={<FontAwesomeIcon icon={faBook} size="lg" pull="left" />}
                         >
                             <h3 className="vertical-timeline-element-title">Mobile Phone Usability and its Influence on Brand Loyalty and Re-Purchase Intention: An Empirical Study</h3>
-                            <a href={Pdf} target="_blank">View Camera Ready Submission</a>
+                            <a href="https://ieeexplore.ieee.org/document/9019911" target="_blank">View in IEEE Xplore</a>
                             <p className="info">2019 5th IEEE International WIE Conference on Electrical and Computer Engineering (WIECON-ECE)</p>
-                            <p className="info-1">The paper is currently undergoing the process of publication, it will be up on IEEE Xplore soon. Please view the Camera Ready Submission in the meantime.</p>
+                            {/* <p className="info-1">The paper is currently undergoing the process of publication, it will be up on IEEE Xplore soon. Please view the Camera Ready Submission in the meantime.</p> */}
                         </VerticalTimelineElement>
                     </VerticalTimeline>
                     <div>
