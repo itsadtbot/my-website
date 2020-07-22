@@ -125,7 +125,7 @@ class Resume extends Component {
                             icon={<FontAwesomeIcon icon={faBriefcase} size="lg" pull="left" />}
                         >
                             
-                            <img src="images/resume/tessolve.jpg" alt="Aditi Bhat Tessolve Logo"></img>
+                            <img src="images/resume/tessolve.jpg" alt="Aditi Bhat Tessolve Semiconductors Logo"></img>
                             <h3 className="vertical-timeline-element-title">Tessolve Semiconductors India Pvt. Ltd.</h3>
                             <p className="info">Technical Intern </p>
                             <p className="info-1">Optimization of Technology Migration Scripts written in Perl and Python.</p>
