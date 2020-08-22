@@ -116,6 +116,30 @@ const BlogCards = () => {
                                 </Link>
                             </CardContent>
                         </Card>
+                        <br/>
+                        <Card className={cx(styles.root, shadowStyles.root)}>
+                            {/* <CardMedia
+                                className={styles.media}
+                                // image={
+                                //     'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2000px-Git_icon.svg.png'
+                                // }
+                                image="images/blogs/WFH/scavenger.jpg"
+                            /> */}
+                            <CardContent>
+                                <TextInfoContent
+                                    classes={contentStyles}
+                                    overline={'22 AUG 2020'}
+                                    heading={'GRE Resources'}
+                                    body={
+                                        'Here are some resources I used to prepare for the GRE! I will convert this into a full-fledged blog soon.'
+                                    }
+                                />
+                                <Link to={`/blogs/GRE`}>
+
+                                    <Button className={buttonStyles}>Read more</Button>
+                                </Link>
+                            </CardContent>
+                        </Card>
                     </Grid>
 
 
