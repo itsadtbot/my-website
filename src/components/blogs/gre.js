@@ -25,6 +25,8 @@ class WFH extends Component {
                     <p>&emsp;&emsp;This was suggested during a live session conducted by Skill-X (IG: @skillxhq) where they hosted me! <a href="https://www.youtube.com/channel/UCUeocvBLLnLEcd9ibFH18dw" target="_blank"> Here</a> is the link to YM Grad.</p>
                     <h2>Tip: Take a lot of Mock exams!</h2>
                     <p>&emsp;&emsp;Simulate the exact environment in which you'll be taking the exam. And keep a journal or excel sheet of the sections you haven't performed well in, so that you can watch more videos on those and practice!</p>
+                    <br/>
+                    <p>Feel free to reach out to me for any more queries, I am @itsadtbot on Instagram!</p>
                 </section>
             </React.Fragment >
         );
