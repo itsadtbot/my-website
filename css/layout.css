@@ -853,18 +853,7 @@ ul#nav li.current a {
     border-bottom: 3px solid #11ABB0;
     padding-bottom: 6px;
 }
-.pinwheel {
-    width:30em;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.pinwheelimg {
-    width:100em;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 #blogs img {
     display: block;
     margin-left: auto;
@@ -872,6 +861,40 @@ ul#nav li.current a {
     width: 70em;
 }
 
+#pinwheel {
+    background: #ebeeee;
+    padding-top: 90px;
+    padding-bottom: 60px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+#pinwheel img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em;
+}
+
+#pinwheel p {
+    font-family: 'opensans-regular', sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 0.5px;
+    text-align: justify;
+    color: #0D0D0D;
+}
+
+#pinwheel h1 {
+    font: 3.5em 'opensans-bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #11ABB0;
+    line-height: normal;
+    /* text-shadow: 2px 1px #7A7A7A; */
+}
 
 
 /* popup modal */
