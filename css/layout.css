@@ -853,13 +853,20 @@ ul#nav li.current a {
     border-bottom: 3px solid #11ABB0;
     padding-bottom: 6px;
 }
-
+.pinwheel {
+    width:30em !important;
+}
+.pinwheelimg {
+    width:100em !important;
+}
 #blogs img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 70em;
 }
+
+
 
 /* popup modal */
 
