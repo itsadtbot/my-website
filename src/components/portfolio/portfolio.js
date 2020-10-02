@@ -75,7 +75,28 @@ class Portfolio extends Component {
                     <div className="row">
                         <div className="twelve columns collapsed">
                             {/* portfolio-wrapper */}
+
                             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+                                <div className="columns portfolio-item">
+                                    <div>
+                                        <div className="item-wrap">
+                                        <Link to={`/projects/pinwheel`}>
+                                            {/* <a href={Instagram} target="_blank"> */}
+                                                {/* <Link to={`/projects/about`} target="_blank"> */}
+                                                <img src="images/portfolio/Pinwheel.jpg" alt="Pinwheel - Making Streets Safer for Women"></img>
+                                                <div className="overlay">
+                                                    <div className="portfolio-item-meta">
+                                                        <h5>Pinwheel - Making Streets Safer For Women</h5>
+                                                        {/* <p>Web Development</p> */}
+                                                    </div>
+                                                </div>
+                                                <div className="link-icon"><i className="icon-plus" /></div>
+                                            {/* </a> */}
+                                            </Link>
+
+                                        </div>
+                                    </div>
+                                </div>
                                 <div className="columns portfolio-item">
                                     <div>
                                         <div className="item-wrap">
@@ -192,7 +213,7 @@ class Portfolio extends Component {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="columns portfolio-item">
+                                {/* <div className="columns portfolio-item">
                                     <div>
                                         <div className="item-wrap">
                                             <a href="https://github.com/itsadtbot/React-app" target="_blank">
@@ -201,13 +222,13 @@ class Portfolio extends Component {
                                                     <div className="portfolio-item-meta">
                                                         <h5>React Application - Confusion</h5>
                                                         {/* <p>Web Development</p> */}
-                                                    </div>
+                                                    {/* </div>
                                                 </div>
                                                 <div className="link-icon"><i className="icon-plus" /></div>
                                             </a>
                                         </div>
-                                    </div>
-                                </div>
+                                    </div> */}
+                                {/* </div> */} 
                             </div>
 
                             {/* </Carousel> */}
