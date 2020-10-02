@@ -854,10 +854,16 @@ ul#nav li.current a {
     padding-bottom: 6px;
 }
 .pinwheel {
-    width:30em !important;
+    width:30em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .pinwheelimg {
-    width:100em !important;
+    width:100em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 #blogs img {
     display: block;
