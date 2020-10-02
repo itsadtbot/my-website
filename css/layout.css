@@ -881,12 +881,12 @@ ul#nav li.current a {
     font-family: 'opensans-regular', sans-serif;
     font-size: 1.5em;
     letter-spacing: 0.5px;
-    text-align: justify;
+    text-align: left;
     color: #0D0D0D;
 }
 
 #pinwheel h1 {
-    font: 3.5em 'opensans-bold', sans-serif;
+    font: 3em 'opensans-bold', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
