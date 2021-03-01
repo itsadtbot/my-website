@@ -26,14 +26,14 @@ export default class Contact extends Component {
                             </ul>
 
                             <ul class="copyright">
-                                <li>&copy; Copyright 2014 CeeVee</li>
-                                <li>Template by Styleshout</li>
-                                <li>Edited by Aditi Bhat</li>
+                                <li>&copy; Aditi Bhat 2021</li>
+                                {/* <li>Template by Styleshout</li>
+                                <li>Edited by Aditi Bhat</li> */}
                             </ul>
 
                         </div>
 
-                        <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+                        {/* <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div> */}
 
                     </div>
 
