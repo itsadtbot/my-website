@@ -6,6 +6,7 @@ import Resume from '../resume/resume';
 import Portfolio from '../portfolio/portfolio';
 import Blogs from '../blogs/blogs'
 import Projects from '../projects/projects';
+import DotArt from '../general/dotart';
 const Main = () => (
     <main>
         <Switch>
@@ -14,6 +15,7 @@ const Main = () => (
             <Route path='/resume' component={Resume} />
             <Route path='/projects' component={Projects} />
             <Route path='/blogs' component={Blogs} />
+            <Route path='/dotart' component={DotArt} />
             {/* <Route path='/test'>
                     <Topics />
                 </Route> */}

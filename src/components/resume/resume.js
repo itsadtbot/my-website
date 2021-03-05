@@ -254,7 +254,7 @@ class Resume extends Component {
                         >
                             <h3 className="vertical-timeline-element-title">I have completed a total of</h3>
                             <h1 className="vertical-timeline-element-title">
-                                <CountUp end={88} redraw={true}>
+                                <CountUp end={111} redraw={true}>
                                     {({ countUpRef, start }) => (
                                         <VisibilitySensor onChange={start} delayedCall>
                                             <span ref={countUpRef} />
@@ -264,7 +264,7 @@ class Resume extends Component {
                             </h1>
                             <br />
                             <h3> courses</h3>
-                            <p className="info-1">I have completed 88 courses on Coursera in the fields of User Experience Research and Design, Deep Learning, Web Design and Development, Python Programming, Blockchain, Psychology, Business Analysis, Data Science, Search Engine Optimisation and Business Management.</p>
+                            <p className="info-1">I have completed 111 courses on Coursera in the fields of User Experience Research and Design, Deep Learning, Web Design and Development, Python Programming, Blockchain, Psychology, Business Analysis, Data Science, Search Engine Optimisation and Business Management.</p>
                             <a href={Courses} target="_blank">View a list of all courses here</a>
                        </VerticalTimelineElement>
                     </VerticalTimeline>

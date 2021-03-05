@@ -41,22 +41,22 @@ class About extends Component {
         return (
             <React.Fragment>
                 <section id="about">
-                    <div className="row">
+                    {/* <div className="row">
                         <div className="three columns">
-                        <img className="profile-pic" src="https://secure.gravatar.com/avatar/c850f6e86af4253521f6cc9028257398" alt="Aditi Bhat's Profile Picture" />
+                        {/* <img className="profile-pic" src="https://secure.gravatar.com/avatar/c850f6e86af4253521f6cc9028257398" alt="Aditi Bhat's Profile Picture" />
                         </div>
                         <div class="nine columns main-col">
 
-                            <h1>About Me</h1>
+                            <h1>About Me</h1> */}
 
                             {/* <p>To be updated</p> */}
-                            <br />
-                            <hr />
+                            {/* <br />
+                            <hr /> */}
 
-                        </div>
-                    </div>
+                        {/* </div>
+                    </div> 
                     <br />
-                    <br />
+                    <br /> */}
 
                     {/* <div className="row">
                             <div className="twelve columns collapsed">
