@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cb7923f794a41dbb5468f8e9e71a0e9c",
+    "revision": "9408a33cc114248b623255f4ec301545",
     "url": "/index.html"
   },
   {
-    "revision": "a97f0a0c2ad6e27ac923",
+    "revision": "366000df86b658508443",
     "url": "/static/css/2.b0809c5e.chunk.css"
   },
   {
-    "revision": "1b3e42350bbdb8ffaa05",
+    "revision": "44936e0b1f368cea6233",
     "url": "/static/css/main.507ba37c.chunk.css"
   },
   {
-    "revision": "a97f0a0c2ad6e27ac923",
-    "url": "/static/js/2.14f0ad95.chunk.js"
+    "revision": "366000df86b658508443",
+    "url": "/static/js/2.eee690dc.chunk.js"
   },
   {
-    "revision": "1b3e42350bbdb8ffaa05",
-    "url": "/static/js/main.cdcf1c05.chunk.js"
+    "revision": "44936e0b1f368cea6233",
+    "url": "/static/js/main.5314ec85.chunk.js"
   },
   {
     "revision": "80724c4b3740e6980017",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Coursera-HeuristicEval.17f37ad0.pdf"
   },
   {
-    "revision": "c857d2726799bcbbe171a0d540cac663",
-    "url": "/static/media/Courses.c857d272.pdf"
+    "revision": "ce794828e2b7343e5d20de78d8e3c5a4",
+    "url": "/static/media/Courses.ce794828.pdf"
   },
   {
     "revision": "fb4af6810856ac5c208250265c3338f8",
