@@ -6,7 +6,9 @@ import SUS from '../../projects/SUS.pdf'
 import CourseraHE from '../../projects/Coursera-HeuristicEval.pdf'
 import HipmunkUT from '../../projects/Hipmunk-UserTest.pdf'
 import HipmunkPT from '../../projects/PreferenceTest-Hipmunk.pdf'
+import HipmunkUPT from '../../projects/Hipmunk-User-Preference-Test.pdf'
 import ColourPsych from '../../projects/ColourPsych.pdf'
+import CovidPsych from '../../projects/COVIDWomen.pdf'
 import { BrowserRouter as Router, Switch, Route, Link, useParams, useRouteMatch } from 'react-router-dom';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -74,46 +76,34 @@ class Portfolio extends Component {
                     > */}
                     <div className="row">
                         <div className="twelve columns collapsed">
-                            {/* portfolio-wrapper */}
-
                             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
                                 <div className="columns portfolio-item">
                                     <div>
                                         <div className="item-wrap">
                                         <Link to={`/projects/pinwheel`}>
-                                            {/* <a href={Instagram} target="_blank"> */}
-                                                {/* <Link to={`/projects/about`} target="_blank"> */}
                                                 <img src="images/portfolio/Pinwheel.jpg" alt="Pinwheel - Making Streets Safer for Women"></img>
                                                 <div className="overlay">
                                                     <div className="portfolio-item-meta">
                                                         <h5>Pinwheel - Making Streets Safer For Women</h5>
-                                                        {/* <p>Web Development</p> */}
                                                     </div>
                                                 </div>
                                                 <div className="link-icon"><i className="icon-plus" /></div>
-                                            {/* </a> */}
                                             </Link>
-
                                         </div>
                                     </div>
                                 </div>
                                 <div className="columns portfolio-item">
                                     <div>
                                         <div className="item-wrap">
-                                            {/* <Link to={`/projects/Instagram-Assessment`}> */}
-                                            <a href={Instagram} target="_blank">
-                                                {/* <Link to={`/projects/about`} target="_blank"> */}
-                                                <img src="images/portfolio/instagram.jpg" alt="Aditi Bhat Instagram"></img>
+                                            <a href={CovidPsych} target="_blank">
+                                                <img src="images/portfolio/Covid-Psych.jpg" alt="Aditi Bhat The Psychological Impact of COVID 19 on Working Women"></img>
                                                 <div className="overlay">
                                                     <div className="portfolio-item-meta">
-                                                        <h5>User Needs Assessment - Instagram</h5>
-                                                        {/* <p>Web Development</p> */}
+                                                        <h5>The Psychological Impact of COVID 19 on Working Women</h5>
                                                     </div>
                                                 </div>
                                                 <div className="link-icon"><i className="icon-plus" /></div>
                                             </a>
-                                            {/* </Link> */}
-
                                         </div>
                                     </div>
                                 </div>
@@ -125,7 +115,6 @@ class Portfolio extends Component {
                                                 <div className="overlay">
                                                     <div className="portfolio-item-meta">
                                                         <h5>StartUp Starter</h5>
-                                                        {/* <p>Web Development</p> */}
                                                     </div>
                                                 </div>
                                                 <div className="link-icon"><i className="icon-plus" /></div>
@@ -133,6 +122,23 @@ class Portfolio extends Component {
                                         </div>
                                     </div>
                                 </div>
+                                
+                                <div className="columns portfolio-item">
+                                    <div>
+                                        <div className="item-wrap">
+                                            <a href={Instagram} target="_blank">
+                                                <img src="images/portfolio/instagram.jpg" alt="Aditi Bhat Instagram"></img>
+                                                <div className="overlay">
+                                                    <div className="portfolio-item-meta">
+                                                        <h5>User Needs Assessment - Instagram</h5>
+                                                    </div>
+                                                </div>
+                                                <div className="link-icon"><i className="icon-plus" /></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
                                 <div className="columns portfolio-item">
                                     <div>
                                         <div className="item-wrap">
@@ -141,7 +147,6 @@ class Portfolio extends Component {
                                                 <div className="overlay">
                                                     <div className="portfolio-item-meta">
                                                         <h5>Coursera- Heuristic Evaluation</h5>
-                                                        {/* <p>Web Development</p> */}
                                                     </div>
                                                 </div>
                                                 <div className="link-icon"><i className="icon-plus" /></div>
@@ -152,44 +157,11 @@ class Portfolio extends Component {
                                 <div className="columns portfolio-item">
                                     <div>
                                         <div className="item-wrap">
-                                            <a href={HipmunkUT} target="_blank">
-                                                <img src="images/portfolio/hipmunk.jpg" alt="Aditi Bhat Hipmunk Unit Test"></img>
+                                            <a href={HipmunkUPT} target="_blank">
+                                                <img src="images/portfolio/hipmunk.jpg" alt="Aditi Bhat Hipmunk User and Preference Test"></img>
                                                 <div className="overlay">
                                                     <div className="portfolio-item-meta">
-                                                        <h5>Hipmunk - User Test</h5>
-                                                        {/* <p>Web Development</p> */}
-                                                    </div>
-                                                </div>
-                                                <div className="link-icon"><i className="icon-plus" /></div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="columns portfolio-item">
-                                    <div>
-                                        <div className="item-wrap">
-                                            <a href={ColourPsych} target="_blank">
-                                                <img src="images/portfolio/ColourPsych.jpg" alt="Aditi Bhat The Psychology of Colour"></img>
-                                                <div className="overlay">
-                                                    <div className="portfolio-item-meta">
-                                                        <h5>The Psychology of Colour</h5>
-                                                        {/* <p>Web Development</p> */}
-                                                    </div>
-                                                </div>
-                                                <div className="link-icon"><i className="icon-plus" /></div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="columns portfolio-item">
-                                    <div>
-                                        <div className="item-wrap">
-                                            <a href={HipmunkPT} target="_blank">
-                                                <img src="images/portfolio/hipmunk-1.jpg" alt="Aditi Bhat Hipmunk Preference Test"></img>
-                                                <div className="overlay">
-                                                    <div className="portfolio-item-meta">
-                                                        <h5>Hipmunk - Preference Test</h5>
-                                                        {/* <p>Web Development</p> */}
+                                                        <h5>Hipmunk - User and Preference Tests</h5>
                                                     </div>
                                                 </div>
                                                 <div className="link-icon"><i className="icon-plus" /></div>
@@ -205,7 +177,6 @@ class Portfolio extends Component {
                                                 <div className="overlay">
                                                     <div className="portfolio-item-meta">
                                                         <h5>Data Visualization with After Effects</h5>
-                                                        {/* <p>Web Development</p> */}
                                                     </div>
                                                 </div>
                                                 <div className="link-icon"><i className="icon-plus" /></div>
@@ -213,6 +184,23 @@ class Portfolio extends Component {
                                         </div>
                                     </div>
                                 </div>
+                                <div className="columns portfolio-item">
+                                    <div>
+                                        <div className="item-wrap">
+                                            <a href={ColourPsych} target="_blank">
+                                                <img src="images/portfolio/ColourPsych.jpg" alt="Aditi Bhat The Psychology of Colour"></img>
+                                                <div className="overlay">
+                                                    <div className="portfolio-item-meta">
+                                                        <h5>The Psychology of Colour</h5>
+                                                    </div>
+                                                </div>
+                                                <div className="link-icon"><i className="icon-plus" /></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                
                                 {/* <div className="columns portfolio-item">
                                     <div>
                                         <div className="item-wrap">
@@ -231,7 +219,6 @@ class Portfolio extends Component {
                                 {/* </div> */} 
                             </div>
 
-                            {/* </Carousel> */}
                             <div id="modal-insta" className="popup-modal mfp-hide">
                                 <img className="scale-with-grid" src="images/portfolio/affinitywall.jpg" alt="User Needs Assessment - Instagram" />
                                 <div className="description-box">
@@ -326,27 +313,11 @@ class Portfolio extends Component {
                             </div>
                         </div>
                     </div>
-                    {/* <Switch>
-                        <Route exact path='/projects' component={Portfolio} />
-                        <Route path='/projects/example' component={About} />
-                    </Switch> */}
-
+ 
                 </section>
-                {/* <Switch>
-                    <Route exact path='/projects' component={Projects} />
-                    <Route path='/projects/example' component={About} />
-                </Switch> */}
             </React.Fragment >
 
         );
     }
 }
 export default Portfolio;
-
-{/* <Link to={`/roster/${p.number}`}>{p.name}</Link> */ }
-// const Roster = () => (
-//     <Switch>
-//       <Route exact path='/roster' component={FullRoster}/>
-//       <Route path='/roster/:number' component={Player}/>
-//     </Switch>
-//   )
