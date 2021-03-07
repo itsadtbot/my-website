@@ -20,10 +20,15 @@ export default class Home extends Component {
 
                         </Typist>
 
-                        <h2 className="responsive-headline">
+                        {/* <h2 className="responsive-headline">
                             <Fade cascade delay={2000}>Head over here to learn <Link to="/about">About Me.</Link>
                             </Fade>
-                        </h2>
+                        </h2> */}
+
+                        <h3 className="responsive-headline">
+                            <Fade cascade delay={2000}>The word amateur originally comes from the latin verb ‘amare: to love’, which means that an amateur is someone who loves what they are doing. This makes me an amateur at many things, head over here to see what they are and learn more <Link to="/about">About Me!</Link>
+                            </Fade>
+                        </h3>
 
                         {/* <a className="smoothscroll" href="#about" style={{ fontWeight: "bold", display: "inline" }}>About Me</a> */}
                         {/* <h3 className="responsive-headline"><Fade cascade delay={2000}>Thank you for visiting my website! Click here to learn <Link to="/about">About Me</Link>.</Fade></h3> */}

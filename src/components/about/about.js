@@ -105,7 +105,38 @@ class About extends Component {
                         </Grid> */}
 
 
+<Grid item lg={3}>
+                            <div className="columns portfolio-item">
 
+                                <Card>
+                                    <CardContent>
+
+                                        <h2 className="card-title">HULA HOOPING
+                                            <span>
+                                                <Emoji symbol="⭕" label="hooping" />
+                                            </span>
+                                        </h2>
+                                        <img alt="Aditi Bhat Hoops Don't Lie" src="images/portfolio/hooping.jpg" />
+                                        <h3>    </h3>
+                                        <h3 className="card-title">I have been Hula Hooping since the age of 7. I have a Youtube Channel called <a href="https://www.youtube.com/hoopsdontlie" target="_blank">Hoops Don't Lie</a> which has videos with 6k+ views! They have been featured on Indian Television too. Check out my <a href="https://www.instagram.com/itsadtbot" target="_blank">Instagram (@itsadtbot)</a> for tutorials and more!</h3>
+
+                                        {/* <a href="https://www.youtube.com/hoopsdontlie" title target="_blank"> */}
+
+                                        {/* <div className="overlay">
+                                                    <div className="portfolio-item-meta">
+                                                        <h5>Hula Hooping</h5>
+                                                        {/* <a href="https://www.youtube.com/hoopsdontlie"><i className="fa fa-youtube" /></a> */}
+                                        {/* <p>Web Development</p> */}
+                                        {/* </div> */}
+                                        {/* </div> */}
+                                        {/* <div className="link-icon"><i className="fa fa-youtube" /></div> */}
+                                        {/* </a> */}
+
+                                    </CardContent>
+
+                                </Card>
+                            </div> {/* item end */}
+                        </Grid>
                         <Grid item lg={3}>
                             <div className="columns portfolio-item">
                                 <Card>
@@ -136,38 +167,7 @@ class About extends Component {
                             </div> {/* item end */}
                         </Grid>
                         {/* <a href="https://www.youtube.com/hoopsdontlie" target="_blank"><i className="fa fa-youtube" /></a> */}
-                        <Grid item lg={3}>
-                            <div className="columns portfolio-item">
-
-                                <Card>
-                                    <CardContent>
-
-                                        <h2 className="card-title">HULA HOOPING
-                                            <span>
-                                                <Emoji symbol="⭕" label="hooping" />
-                                            </span>
-                                        </h2>
-                                        <img alt="Aditi Bhat Hoops Don't Lie" src="images/portfolio/hooping.jpg" />
-                                        <h3>    </h3>
-                                        <h3 className="card-title">I have been Hula Hooping since the age of 8. I have a Youtube Channel called <a href="https://www.youtube.com/hoopsdontlie" target="_blank">Hoops Don't Lie</a> which has videos with 6k+ views! They have been featured on Indian Television and on Hooping websites such as hooping.org.</h3>
-
-                                        {/* <a href="https://www.youtube.com/hoopsdontlie" title target="_blank"> */}
-
-                                        {/* <div className="overlay">
-                                                    <div className="portfolio-item-meta">
-                                                        <h5>Hula Hooping</h5>
-                                                        {/* <a href="https://www.youtube.com/hoopsdontlie"><i className="fa fa-youtube" /></a> */}
-                                        {/* <p>Web Development</p> */}
-                                        {/* </div> */}
-                                        {/* </div> */}
-                                        {/* <div className="link-icon"><i className="fa fa-youtube" /></div> */}
-                                        {/* </a> */}
-
-                                    </CardContent>
-
-                                </Card>
-                            </div> {/* item end */}
-                        </Grid>
+                        
                         <Grid item lg={3}>
                             <div className="columns portfolio-item">
                                 <Card>
@@ -179,7 +179,7 @@ class About extends Component {
                                         </h2>
                                         {/* <a href="#modal-03" title> */}
                                         <img alt="Aditi Bhat Psychology" src="images/portfolio/psychology.jpg" />
-                                        <h3 className="card-title">Blink by Malcolm Gladwell, Thinking Fast and Slow by Daniel Kahneman, Emotional Design by Don Norman, Lateral Thinking by Edward de Bono are some of my favourite books! I've written a couple of articles on topics such as the psychology of <a href={ColourPsych} title target="_blank">colour</a>, <a href="https://itsadtbot.wordpress.com/2016/08/01/my-cup-of-positivi-tea/" title target="_blank">positivity</a> and <a href="https://itsadtbot.wordpress.com/2016/06/13/the-psychology-of-popularity/" title target="_blank">popularity</a>. I've also written a poem on the concept of <a href="https://itsadtbot.wordpress.com/2016/06/11/mbti/" title target="_blank">MBTI</a>.</h3>
+                                        <h3 className="card-title">Blink by Malcolm Gladwell, Stumbling on Happiness by Daniel Gilbert, Flow by Mihaly Csikszentmihalyi and Maybe you should talk to someone by Lori Gottlieb are some of my favourite books! I've written articles on topics such as the psychology of <a href={ColourPsych} title target="_blank">colour</a>, <a href="https://itsadtbot.wordpress.com/2016/08/01/my-cup-of-positivi-tea/" title target="_blank">positivity</a> and <a href="https://itsadtbot.wordpress.com/2016/06/13/the-psychology-of-popularity/" title target="_blank">popularity</a>. I've also written a poem on the concept of <a href="https://itsadtbot.wordpress.com/2016/06/11/mbti/" title target="_blank">MBTI</a>.</h3>
                                         {/* <div className="link-icon"><i className="icon-plus" /></div> */}
                                         {/* </a> */}
                                     </CardContent>
@@ -215,7 +215,7 @@ class About extends Component {
                                         </h2>
                                         {/* <a href="#modal-05" title> */}
                                         <img alt="Aditi Bhat U&I Youth Development Program Samarthanam Trust" src="images/portfolio/volunteer2.jpg" />
-                                        <h3>I have worked with four NGOs to positively impact underserved communities. The resume section has a detailed account of my work.</h3>
+                                        <h3>I have worked with four NGOs to positively impact underserved communities. The <a href="https://aditibhat.com/resume" target="_blank">Resume</a> section has a detailed account of my work.</h3>
                                     </CardContent>
                                     {/* <div className="link-icon"><i className="icon-plus" /></div> */}
                                     {/* </a> */}
@@ -251,7 +251,7 @@ class About extends Component {
                                             </span>
                                         </h2>
                                         <img alt="Aditi Bhat Dot Art Painting Quilling" src="images/portfolio/art.jpg" />
-                                        <h3>I like to dabble in different art forms such as <a href={quill} title target="_blank">quilling</a> and <a href={dot} title target="_blank">dot art painting</a>!</h3>
+                                        <h3>I like to dabble in different art forms such as <a href={quill} title target="_blank">quilling</a> and <a href={dot} title target="_blank">dot art painting</a>! I take inspiration from my travels and favourite bands and then convert them into dot art paintings.</h3>
                                     </CardContent>
                                     {/* <div className="link-icon"><i className="icon-plus" /></div> */}
                                     {/* </a> */}
@@ -268,8 +268,8 @@ class About extends Component {
                                             </span>
                                         </h2>
                                         {/* <a href="#modal-08" title> */}
-                                        <img alt="Aditi Bhat Decor" src="images/portfolio/decor.jpg" />
-                                       <h3><a href={decor} title target="_blank">Here</a> is what my apartment looked like during undergrad!</h3>
+                                        <img alt="Aditi Bhat Decor" src="images/portfolio/decor.JPG" />
+                                       <h3><a href={decor} title target="_blank">This</a> is what my apartment looked like during undergrad!</h3>
                                         {/* <div className="link-icon"><i className="icon-plus" /></div> */}
                                         {/* </a> */}
                                     </CardContent>
@@ -281,7 +281,7 @@ class About extends Component {
                         {/* </div> twelve columns end */}
                         {/* Modal Popup
 	      --------------------------------------------------------------- */}
-                        <div id="modal-01" className="popup-modal mfp-hide">
+                        {/* <div id="modal-01" className="popup-modal mfp-hide">
                             <img className="scale-with-grid" src="images/portfolio/modals/m-travel.jpg" alt="" />
                             <div className="description-box">
                                 <h4>Travel</h4>
@@ -290,11 +290,11 @@ class About extends Component {
                             </div>
                             <div className="link-box">
                                 {/* <a href="http://www.behance.net">Details</a> */}
-                                <a className="popup-modal-dismiss">Close</a>
-                            </div>
-                        </div>{/* modal-01 End */}
+                                {/* <a className="popup-modal-dismiss">Close</a> */}
+                            {/* </div> */}
+                        {/* </div> */} 
                         {/* modal-02 End */}
-                        <div id="modal-03" className="popup-modal mfp-hide">
+                        {/* <div id="modal-03" className="popup-modal mfp-hide">
                             <img className="scale-with-grid" src="images/portfolio/modals/m-psychology.jpg" alt="" />
                             <div className="description-box">
                                 <h4>Psychology</h4>
@@ -305,8 +305,8 @@ class About extends Component {
                                 <a href="http://www.behance.net">Details</a>
                                 <a className="popup-modal-dismiss">Close</a>
                             </div>
-                        </div>{/* modal-03 End */}
-                        <div id="modal-04" className="popup-modal mfp-hide">
+                        </div> */}
+                        {/* <div id="modal-04" className="popup-modal mfp-hide">
                             <img className="scale-with-grid" src="images/portfolio/modals/m-baking.jpg" alt="" />
                             <div className="description-box">
                                 <h4>Baking</h4>
@@ -317,8 +317,8 @@ class About extends Component {
                                 <a href="http://www.behance.net">Details</a>
                                 <a className="popup-modal-dismiss">Close</a>
                             </div>
-                        </div>{/* modal-04 End */}
-                        <div id="modal-05" className="popup-modal mfp-hide">
+                        </div> */}
+                        {/* <div id="modal-05" className="popup-modal mfp-hide">
                             <img className="scale-with-grid" src="images/portfolio/modals/m-volunteer.jpg" alt="" />
                             <div className="description-box">
                                 <h4>Social Volunteering</h4>
@@ -328,8 +328,8 @@ class About extends Component {
                                 <a href="http://www.behance.net">Details</a>
                                 <a className="popup-modal-dismiss">Close</a>
                             </div>
-                        </div>{/* modal-05 End */}
-                        <div id="modal-06" className="popup-modal mfp-hide">
+                        </div> */}
+                        {/* <div id="modal-06" className="popup-modal mfp-hide">
                             <img className="scale-with-grid" src="images/portfolio/modals/m-poetry.jpg" alt="" />
                             <div className="description-box">
                                 <h4>Poetry</h4>
@@ -340,8 +340,8 @@ class About extends Component {
                                 <a href="http://www.behance.net">Details</a>
                                 <a className="popup-modal-dismiss">Close</a>
                             </div>
-                        </div>{/* modal-06 End */}
-                        <div id="modal-07" className="popup-modal mfp-hide">
+                        </div> */}
+                        {/* <div id="modal-07" className="popup-modal mfp-hide">
                             <img className="scale-with-grid" src="images/portfolio/modals/m-art.jpg" alt="" />
                             <div className="description-box">
                                 <h4>Art</h4>
@@ -352,8 +352,8 @@ class About extends Component {
                                 <a href="http://www.behance.net">Details</a>
                                 <a className="popup-modal-dismiss">Close</a>
                             </div>
-                        </div>{/* modal-07 End */}
-                        <div id="modal-08" className="popup-modal mfp-hide">
+                        </div> */}
+                        {/* <div id="modal-08" className="popup-modal mfp-hide">
                             <img className="scale-with-grid" src="images/portfolio/modals/m-decor.jpg" alt="" />
                             <div className="description-box">
                                 <h4>Decor</h4>
@@ -364,7 +364,7 @@ class About extends Component {
                                 <a href="http://www.behance.net">Details</a>
                                 <a className="popup-modal-dismiss">Close</a>
                             </div>
-                        </div>{/* modal-01 End */}
+                        </div> */}
                         {/* </div> row End */}
                     </Grid>
                     {/* </div> */}
