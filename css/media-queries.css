@@ -23,7 +23,10 @@
       letter-spacing: -1px;
       margin: 0 auto 12px auto;
    }
-
+   .banner-text h3 {
+      font: 17px/1.9em 'opensans-regular', sans-serif;
+      width: 80%;
+   }
 }
 
 /* screenwidth less than 900px
@@ -42,7 +45,7 @@
       letter-spacing: -1px;      
    }
     .banner-text h3 {
-      font: 17px/1.9em 'librebaskerville-regular', serif;
+      font: 17px/1.9em 'opensans-regular', sans-serif;
       width: 80%;
    }
     .banner-text hr {
@@ -203,7 +206,7 @@
     .banner-text h1 { font: 68px/1.1em 'opensans-bold', sans-serif; }
     .banner-text h2 { font: 60px/1.1em 'opensans-bold', sans-serif; }
     .banner-text h3 {
-      font: 16px/1.9em 'librebaskerville-regular', serif;
+      font: 16px/1.9em 'opensans-regular', sans-serif;
       width: 85%;
    }
     .banner-text hr {
@@ -387,9 +390,12 @@
       text-align: center;
    }
     .banner-text h3 {
-      font: 14px/1.9em 'librebaskerville-regular', sans-serif;
-      white-space: nowrap !important;
-      /* width: 90%; */
+      font: 14px/1.9em 'opensans-regular', sans-serif;
+      /* display: inline-block; */
+      /* white-space: nowrap; */
+      /* width: auto; */
+      margin: 5vw;
+      text-align: center;
    }
   
    /* header social links */
