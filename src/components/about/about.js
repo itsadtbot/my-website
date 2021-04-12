@@ -118,7 +118,7 @@ class About extends Component {
                                         </h2>
                                         <img alt="Aditi Bhat Hoops Don't Lie" src="images/portfolio/hooping.jpg" />
                                         <h3>    </h3>
-                                        <h3 className="card-title">I have been Hula Hooping since the age of 7. I have a Youtube Channel called <a href="https://www.youtube.com/hoopsdontlie" target="_blank">Hoops Don't Lie</a> which has videos with 6k+ views! They have been featured on Indian Television too. Check out my <a href="https://www.instagram.com/itsadtbot" target="_blank">Instagram (@itsadtbot)</a> for tutorials and more!</h3>
+                                        <h3 className="card-title">I have been Hula Hooping since the age of 7. I have a Youtube Channel called <a href="https://www.youtube.com/hoopsdontlie" target="_blank">Hoops Don't Lie</a> which has videos with 6k+ views! They have been featured on Indian Television too. Check out my <a href="https://www.instagram.com/adt.bot" target="_blank">Instagram (@adt.bot)</a> for tutorials and more!</h3>
 
                                         {/* <a href="https://www.youtube.com/hoopsdontlie" title target="_blank"> */}
 

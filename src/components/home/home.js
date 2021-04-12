@@ -36,7 +36,7 @@ export default class Home extends Component {
                         <ul className="social">
 
                             <li><a href="https://www.facebook.com/aditi.bhat.37" target="_blank"><i className="fa fa-facebook" /></a></li>
-                            <li><a href="https://www.instagram.com/itsadtbot" target="_blank"><i className="fa fa-instagram" /></a></li>
+                            <li><a href="https://www.instagram.com/adt.bot" target="_blank"><i className="fa fa-instagram" /></a></li>
                             <li><a href="https://www.youtube.com/hoopsdontlie" target="_blank"><i className="fa fa-youtube" /></a></li>
                             <li><a href="https://www.linkedin.com/in/aditibhat7" target="_blank"><i className="fa fa-linkedin" /></a></li>
                             {/* <li><a href="https://www.linkedin.com/in/aditibhat7" target="_blank"><i className="fa fa-wordpress" /></a></li> */}
