@@ -17,7 +17,6 @@ export default class Home extends Component {
                         <Typist show="false">
                             <h1 className="responsive-headline">Hello, I'm Aditi Bhat.</h1>
                             <br />
-
                         </Typist>
 
                         {/* <h2 className="responsive-headline">
@@ -25,8 +24,9 @@ export default class Home extends Component {
                             </Fade>
                         </h2> */}
 
-                        <h3 className="responsive-headline">
-                            <Fade cascade delay={2000}>The word amateur originally comes from the latin verb ‘amare: to love’, which means that an amateur is someone who loves what they are doing. This makes me an amateur at many things, head over here to see what they are and learn more <Link to="/about">About Me!</Link>
+                        <h3>
+                            <Fade delay={2000}>
+                                The word amateur originally comes from the latin verb ‘amare: to love’, which means that an amateur is someone who loves what they are doing. This makes me an amateur at many things, head over here to see what they are and learn more <Link to="/about">About Me!</Link>
                             </Fade>
                         </h3>
 
