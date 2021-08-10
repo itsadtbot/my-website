@@ -95,11 +95,11 @@ class Portfolio extends Component {
                                 <div className="columns portfolio-item">
                                     <div>
                                         <div className="item-wrap">
-                                            <a href={CovidPsych} target="_blank">
-                                                <img src="images/portfolio/Covid-Psych.jpg" alt="Aditi Bhat The Psychological Impact of COVID 19 on Working Women"></img>
+                                            <a href="https://docs.google.com/presentation/d/1_fib3h5k3HkWZDiEat1G5kwiwy0_sTQGBNurGv5-6HQ/edit?usp=sharing" target="_blank">
+                                                <img src="images/portfolio/MindPalace.jpg" alt="Mind Palace Find the right therapist for you by Aditi Bhat"></img>
                                                 <div className="overlay">
                                                     <div className="portfolio-item-meta">
-                                                        <h5>The Psychological Impact of COVID 19 on Working Women</h5>
+                                                        <h5>Mind Palace - Find the right therapist for you!</h5>
                                                     </div>
                                                 </div>
                                                 <div className="link-icon"><i className="icon-plus" /></div>
@@ -107,6 +107,7 @@ class Portfolio extends Component {
                                         </div>
                                     </div>
                                 </div>
+                                
                                 <div className="columns portfolio-item">
                                     <div>
                                         <div className="item-wrap">
@@ -122,7 +123,21 @@ class Portfolio extends Component {
                                         </div>
                                     </div>
                                 </div>
-                                
+                                <div className="columns portfolio-item">
+                                    <div>
+                                        <div className="item-wrap">
+                                            <a href={CovidPsych} target="_blank">
+                                                <img src="images/portfolio/Covid-Psych.jpg" alt="Aditi Bhat The Psychological Impact of COVID 19 on Working Women"></img>
+                                                <div className="overlay">
+                                                    <div className="portfolio-item-meta">
+                                                        <h5>The Psychological Impact of COVID 19 on Working Women</h5>
+                                                    </div>
+                                                </div>
+                                                <div className="link-icon"><i className="icon-plus" /></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div className="columns portfolio-item">
                                     <div>
                                         <div className="item-wrap">
@@ -139,21 +154,7 @@ class Portfolio extends Component {
                                     </div>
                                 </div>
                                 
-                                <div className="columns portfolio-item">
-                                    <div>
-                                        <div className="item-wrap">
-                                            <a href={CourseraHE} target="_blank">
-                                                <img src="images/portfolio/coursera.jpg" alt="Aditi Bhat Coursera"></img>
-                                                <div className="overlay">
-                                                    <div className="portfolio-item-meta">
-                                                        <h5>Coursera- Heuristic Evaluation</h5>
-                                                    </div>
-                                                </div>
-                                                <div className="link-icon"><i className="icon-plus" /></div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
+                                
                                 <div className="columns portfolio-item">
                                     <div>
                                         <div className="item-wrap">
@@ -172,6 +173,21 @@ class Portfolio extends Component {
                                 <div className="columns portfolio-item">
                                     <div>
                                         <div className="item-wrap">
+                                            <a href={CourseraHE} target="_blank">
+                                                <img src="images/portfolio/coursera.jpg" alt="Aditi Bhat Coursera"></img>
+                                                <div className="overlay">
+                                                    <div className="portfolio-item-meta">
+                                                        <h5>Coursera- Heuristic Evaluation</h5>
+                                                    </div>
+                                                </div>
+                                                <div className="link-icon"><i className="icon-plus" /></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                {/* <div className="columns portfolio-item">
+                                    <div>
+                                        <div className="item-wrap">
                                             <a href="https://spark.adobe.com/page/A87nbUJEfIiiW/" target="_blank">
                                                 <img src="images/portfolio/AEDV.jpg" alt="Aditi Bhat Adobe After Effects Data Visualization"></img>
                                                 <div className="overlay">
@@ -183,7 +199,7 @@ class Portfolio extends Component {
                                             </a>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                                 <div className="columns portfolio-item">
                                     <div>
                                         <div className="item-wrap">

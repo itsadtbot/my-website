@@ -215,7 +215,7 @@ class About extends Component {
                                         </h2>
                                         {/* <a href="#modal-05" title> */}
                                         <img alt="Aditi Bhat U&I Youth Development Program Samarthanam Trust" src="images/portfolio/volunteer2.jpg" />
-                                        <h3>I have worked with four NGOs to positively impact underserved communities. The <a href="https://aditibhat.com/resume" target="_blank">Resume</a> section has a detailed account of my work.</h3>
+                                        <h3>I have worked with four NGOs to positively impact underserved communities. The <Link to="/resume" target="_blank">Resume</Link> section has a detailed account of my work.</h3>
                                     </CardContent>
                                     {/* <div className="link-icon"><i className="icon-plus" /></div> */}
                                     {/* </a> */}
